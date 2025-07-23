@@ -7,31 +7,29 @@
   <title>SOE</title>
 
   <!-- favicon  -->
-  <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
-  <link rel="manifest" href="./images/favicon/site.webmanifest">
-
-
+  <link rel="apple-touch-icon" sizes="180x180" href="./images/favicon/apple-touch-icon.png" />
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png" />
+  <link rel="manifest" href="./images/favicon/site.webmanifest" />
 
   <!-- google font  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link
     href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-    rel="stylesheet">
+    rel="stylesheet" />
 
   <!-- swiper css -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
   <!-- custom font start  -->
-  <link rel="stylesheet" href="./fonts/web-clash-display/css/clash-display.css">
-  <link rel="stylesheet" href="./css/style.min.css">
+  <link rel="stylesheet" href="./fonts/web-clash-display/css/clash-display.css" />
+  <link rel="stylesheet" href="./css/style.min.css" />
 </head>
 
 <body>
   <!-- Preloader -->
   <div id="preloader" class="fixed inset-0 bg-white z-50 flex items-center justify-center">
-    <img src="./images/logo.svg" alt="logo">
+    <img src="./images/logo.svg" alt="logo" />
     <div
       class="w-16 h-16 border-4 border-gray-300 rounded-full spinner border-t-blue-500 absolute left-0 right-0 m-auto">
     </div>
@@ -39,28 +37,27 @@
 
   <!-- Header -->
   <header class="bg-white py-2.5 sticky top-0 z-30 lg:shadow-none shadow-xl">
-
     <!-- desktop nav -->
     <div class="container flex flex-row justify-between gap-5 lg:gap-8 items-center">
-      <a href="index.html"><img src="./images/logo.svg" alt="gembet" class="xl:w-auto w-[116px]"></a>
+      <a href="index.html"><img src="./images/logo.svg" alt="gembet" class="xl:w-auto w-[116px]" /></a>
 
       <div class="md:hidden">
         <button
           class="justify-center text-text-body-primary text-xs font-medium font-Inter leading-none text-center flex flex-col gap-1"
           data-mobile-menu-toggle="">
-          <img src="./images/menu.svg" alt="menu">
+          <img src="./images/menu.svg" alt="menu" />
         </button>
       </div>
       <!-- Desktop Nav -->
       <nav class="hidden md:flex space-x-4 items-center">
         <ul class="flex flex-row gap-5 lg:gap-8 items-center">
-
-          <li><a href="#"
-              class="text-slate-800 text-base lg:text-lg font-medium  leading-7 transition-all px-1.5 py-1 hover:text-slate-500">Desarrollo</a>
+          <li>
+            <a href="./development.html"
+              class="text-slate-800 text-base lg:text-lg font-medium leading-7 transition-all px-1.5 py-1  hover:text-slate-500 active:text-slate-500 focus:text-slate-500  active:text-slate-500 focus:text-slate-500">Desarrollo</a>
           </li>
           <li class="relative dropdown transition-all">
             <button
-              class="dropdown-toggle flex justify-center items-center transition-all cursor-pointer text-slate-800 text-base lg:text-lg font-medium  leading-7  px-1.5 py-1 gap-1  hover:text-slate-500"
+              class="dropdown-toggle flex justify-center items-center transition-all cursor-pointer text-slate-800 text-base lg:text-lg font-medium leading-7 px-1.5 py-1 gap-1  hover:text-slate-500 active:text-slate-500 focus:text-slate-500"
               data-dropdown>
               Sector salud
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none"
@@ -71,38 +68,32 @@
             </button>
             <div
               class="dropdown-menu dropdown-content transition-all right-0 w-[250px] p-3 bg-white rounded-xl shadow-custom absolute">
-              <ul class=" flex flex-col">
+              <ul class="flex flex-col">
                 <li>
-                  <a href=""
-                    class="flex flex-row gap-3 p-3 hover:bg-zinc-200 rounded-lg transition-all duration-300 text-slate-800 text-base lg:text-lg font-medium  leading-7">
+                  <a href="./systems.html"
+                    class="flex flex-row gap-3 p-3 hover:bg-zinc-200 active:bg-zinc-200 focus:bg-zinc-200 rounded-lg transition-all duration-300 text-slate-800 text-base lg:text-lg font-medium leading-7">
                     Sistemas RIS y PACs
                   </a>
                 </li>
 
                 <li>
-                  <a href=""
-                    class="flex flex-row gap-3 p-3 hover:bg-zinc-200 rounded-lg transition-all duration-300 text-slate-800 text-base lg:text-lg font-medium  leading-7">
+                  <a href="./partner.html"
+                    class="flex flex-row gap-3 p-3 hover:bg-zinc-200 active:bg-zinc-200 focus:bg-zinc-200 rounded-lg transition-all duration-300 text-slate-800 text-base lg:text-lg font-medium leading-7">
                     Growth partner
                   </a>
                 </li>
                 <li>
-                  <a href=""
-                    class="flex flex-row gap-3 p-3 hover:bg-zinc-200 rounded-lg transition-all duration-300 text-slate-800 text-base lg:text-lg font-medium  leading-7">
+                  <a href="./call-center.html"
+                    class="flex flex-row gap-3 p-3 hover:bg-zinc-200 active:bg-zinc-200 focus:bg-zinc-200 rounded-lg transition-all duration-300 text-slate-800 text-base lg:text-lg font-medium leading-7">
                     Call center
                   </a>
                 </li>
-
-
-
-
-
               </ul>
             </div>
           </li>
           <li class="relative dropdown transition-all">
-
             <button
-              class="dropdown-toggle flex justify-center items-center transition-all cursor-pointer text-slate-800 text-base lg:text-lg font-medium  leading-7  px-1.5 py-1 gap-1  hover:text-slate-500"
+              class="dropdown-toggle flex justify-center items-center transition-all cursor-pointer text-slate-800 text-base lg:text-lg font-medium leading-7 px-1.5 py-1 gap-1  hover:text-slate-500"
               data-dropdown>
               Sector empresarial
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none"
@@ -113,24 +104,18 @@
             </button>
             <div
               class="dropdown-menu dropdown-content transition-all right-0 w-[250px] p-3 bg-white rounded-xl shadow-custom absolute">
-              <ul class=" flex flex-col">
+              <ul class="flex flex-col">
                 <li>
-                  <a href=""
-                    class="flex flex-row gap-3 p-3 hover:bg-zinc-200 rounded-lg transition-all duration-300 text-slate-800 text-base lg:text-lg font-medium  leading-7">
-                    Sistemas RIS y PACs
+                  <a href="./hardware.html"
+                    class="flex flex-row gap-3 p-3 hover:bg-zinc-200 active:bg-zinc-200 focus:bg-zinc-200 rounded-lg transition-all duration-300 text-slate-800 text-base lg:text-lg font-medium leading-7">
+                    Hardware corporativo
                   </a>
                 </li>
 
                 <li>
-                  <a href=""
-                    class="flex flex-row gap-3 p-3 hover:bg-zinc-200 rounded-lg transition-all duration-300 text-slate-800 text-base lg:text-lg font-medium  leading-7">
-                    Growth partner
-                  </a>
-                </li>
-                <li>
-                  <a href=""
-                    class="flex flex-row gap-3 p-3 hover:bg-zinc-200 rounded-lg transition-all duration-300 text-slate-800 text-base lg:text-lg font-medium  leading-7">
-                    Call center
+                  <a href="./soluciones.html"
+                    class="flex flex-row gap-3 p-3 hover:bg-zinc-200 active:bg-zinc-200 focus:bg-zinc-200 rounded-lg transition-all duration-300 text-slate-800 text-base lg:text-lg font-medium leading-7">
+                    Provisión de tecnología 
                   </a>
                 </li>
               </ul>
@@ -138,74 +123,63 @@
           </li>
           <li class="relative dropdown group transition-all">
             <button
-              class="dropdown-toggle flex justify-center items-center transition-all cursor-pointer text-white text-base lg:text-lg font-medium  leading-7 px-2  lg:px-4 py-1 gap-1 bg-slate-500 rounded-lg"
+              class="dropdown-toggle flex justify-center items-center transition-all cursor-pointer text-white text-base lg:text-lg font-medium leading-7 px-2 lg:px-4 py-1 gap-1 bg-slate-500 rounded-lg"
               data-dropdown>
               Contáctanos
             </button>
             <div
               class="dropdown-menu dropdown-content absolute group-hover:!block transition-all right-0 w-[350px] p-3 bg-white rounded-xl shadow-custom">
-              <ul class=" flex flex-col">
-
+              <ul class="flex flex-col">
                 <li>
                   <a href="mailto:+52 664 980 03 03"
-                    class="flex flex-row gap-3 p-3 hover:bg-zinc-200 rounded-lg transition-all duration-300">
+                    class="flex flex-row gap-3 p-3 hover:bg-zinc-200 active:bg-zinc-200 focus:bg-zinc-200 rounded-lg transition-all duration-300">
                     <span class="">
-                      <img src="./images/call.svg" alt="call">
+                      <img src="./images/call.svg" alt="call" />
                     </span>
                     <span class="flex flex-col">
-                      <span class="text-slate-800 text-base lg:text-lg font-medium  leading-7">Atención
-                        telefónica</span>
-                      <span class="text-slate-600 text-base lg:text-lg font-normal  leading-7">+52 (664)
-                        980 03
-                        03</span>
+                      <span class="text-slate-800 text-base lg:text-lg font-medium leading-7">Atención telefónica</span>
+                      <span class="text-slate-600 text-base lg:text-lg font-normal leading-7">+52 (664) 980 03 03</span>
                     </span>
                   </a>
                 </li>
 
                 <li>
                   <a href="https://wa.link/tjyxcl"
-                    class="flex flex-row gap-3 p-3 hover:bg-zinc-200 rounded-lg transition-all duration-300">
+                    class="flex flex-row gap-3 p-3 hover:bg-zinc-200 active:bg-zinc-200 focus:bg-zinc-200 rounded-lg transition-all duration-300">
                     <span class="">
-                      <img src="./images/whatsapp-dropdown.svg" alt="whatsapp">
+                      <img src="./images/whatsapp-dropdown.svg" alt="whatsapp" />
                     </span>
                     <span class="flex flex-col">
-                      <span class="text-slate-800 text-base lg:text-lg font-medium  leading-7">WhatsApp</span>
-                      <span class="text-slate-600 text-base lg:text-lg font-normal  leading-7">+52 (664)
-                        980 03
-                        03</span>
+                      <span class="text-slate-800 text-base lg:text-lg font-medium leading-7">WhatsApp</span>
+                      <span class="text-slate-600 text-base lg:text-lg font-normal leading-7">+52 (664) 980 03 03</span>
                     </span>
                   </a>
                 </li>
                 <li>
                   <a href="mailto:info@soe.com.mx"
-                    class="flex flex-row gap-3 p-3 hover:bg-zinc-200 rounded-lg transition-all duration-300">
+                    class="flex flex-row gap-3 p-3 hover:bg-zinc-200 active:bg-zinc-200 focus:bg-zinc-200 rounded-lg transition-all duration-300">
                     <span class="">
-                      <img src="./images/mail-dropdown.svg" alt="mail">
+                      <img src="./images/mail-dropdown.svg" alt="mail" />
                     </span>
                     <span class="flex flex-col">
-                      <span class="text-slate-800 text-base lg:text-lg font-medium  leading-7">Enviar
-                        mensaje</span>
-                      <span class="text-slate-600 text-base lg:text-lg font-normal  leading-7">info@soe.com.mx</span>
+                      <span class="text-slate-800 text-base lg:text-lg font-medium leading-7">Enviar mensaje</span>
+                      <span class="text-slate-600 text-base lg:text-lg font-normal leading-7">info@soe.com.mx</span>
                     </span>
                   </a>
                 </li>
                 <li>
-                  <a href="" class="flex flex-row gap-3 p-3 hover:bg-zinc-200 rounded-lg transition-all duration-300">
+                  <a href=""
+                    class="flex flex-row gap-3 p-3 hover:bg-zinc-200 active:bg-zinc-200 focus:bg-zinc-200 rounded-lg transition-all duration-300">
                     <span class="">
-                      <img src="./images/location-dropdown.svg" alt="location">
+                      <img src="./images/location-dropdown.svg" alt="location" />
                     </span>
                     <span class="flex flex-col">
-                      <span class="text-slate-800 text-base lg:text-lg font-medium  leading-7">Dirección</span>
-                      <span class="text-slate-600 text-base lg:text-lg font-normal  leading-7">Calle
-                        Ejemplo #123,
+                      <span class="text-slate-800 text-base lg:text-lg font-medium leading-7">Dirección</span>
+                      <span class="text-slate-600 text-base lg:text-lg font-normal leading-7">Calle Ejemplo #123,
                         Tijuana, B.C.</span>
                     </span>
                   </a>
                 </li>
-
-
-
-
               </ul>
             </div>
           </li>
@@ -215,25 +189,26 @@
 
     <!-- Mobile Offcanvas -->
     <div class="offcanvas fixed inset-0 bg-white bg-opacity-50 h-screen overflow-y-auto z-50 md:hidden" id="mobileMenu">
-      <div class="bg-white w-full max-w-full h-full p-4 relative">
-        <div class="flex flex-row items-center justify-between">
+      <div class="bg-white w-full max-w-full h-full py-4 relative">
+        <div class="flex flex-row items-center justify-between px-4">
           <a href="">
-            <img src="./images/logo.svg" alt="logo" class="w-[120px]">
+            <img src="./images/logo.svg" alt="logo" class="w-[120px]" />
           </a>
-          <button class=" cursor-pointer" data-close-mobile><img src="./images/close.svg" alt="close"></button>
+          <button class="cursor-pointer" data-close-mobile>
+            <img src="./images/close.svg" alt="close" />
+          </button>
         </div>
-        <div class="mt-5">
-
-          <nav class="flex space-x-4 items-center  justify-center">
+        <div class="mt-5 px-4">
+          <nav class="flex space-x-4 items-center">
             <ul class="flex flex-col gap-5">
-
-              <li class=" flex flex-col justify-center text-center"><a href="#"
-                  class="text-slate-800 text-base lg:text-lg font-medium  leading-7 transition-all px-1.5 py-1 hover:text-slate-500">Desarrollo</a>
+              <li class="flex flex-col justify-start text-start">
+                <a href="./development.html"
+                  class="text-slate-800 text-base lg:text-lg font-medium leading-7 transition-all px-1.5 py-1  hover:text-slate-500 active:text-slate-500 focus:text-slate-500">Desarrollo</a>
               </li>
 
-              <li class="relative dropdown transition-all flex flex-col justify-center">
+              <li class="relative dropdown transition-all flex flex-col justify-start">
                 <button
-                  class="dropdown-toggle flex justify-center items-center transition-all cursor-pointer text-slate-800 text-base lg:text-lg font-medium  leading-7  px-1.5 py-1 gap-1  hover:text-slate-500"
+                  class="dropdown-toggle flex justify-start items-center transition-all cursor-pointer text-slate-800 text-base lg:text-lg font-medium leading-7 px-1.5 py-1 gap-1  hover:text-slate-500 active:text-slate-500 focus:text-slate-500 "
                   data-dropdown>
                   Sector salud
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none"
@@ -242,39 +217,33 @@
                       stroke-linejoin="round" />
                   </svg>
                 </button>
-                <div class="dropdown-menu dropdown-content transition-all w-full p-3 bg-white rounded-xl shadow-custom">
-                  <ul class=" flex flex-col">
+                <div class="dropdown-menu dropdown-content transition-all w-full p-3 rounded-xl">
+                  <ul class="flex flex-col">
                     <li>
-                      <a href=""
-                        class="flex flex-row gap-3 p-3 hover:bg-zinc-200 rounded-lg transition-all duration-300 text-slate-800 text-base lg:text-lg font-medium  leading-7">
+                      <a href="./systems.html"
+                        class="flex flex-row gap-3 p-3 hover:bg-zinc-200 active:bg-zinc-200 focus:bg-zinc-200 rounded-lg transition-all duration-300 text-slate-800 text-base lg:text-lg font-medium leading-7">
                         Sistemas RIS y PACs
                       </a>
                     </li>
 
                     <li>
-                      <a href=""
-                        class="flex flex-row gap-3 p-3 hover:bg-zinc-200 rounded-lg transition-all duration-300 text-slate-800 text-base lg:text-lg font-medium  leading-7">
+                      <a href="./partner.html"
+                        class="flex flex-row gap-3 p-3 hover:bg-zinc-200 active:bg-zinc-200 focus:bg-zinc-200 rounded-lg transition-all duration-300 text-slate-800 text-base lg:text-lg font-medium leading-7">
                         Growth partner
                       </a>
                     </li>
                     <li>
-                      <a href=""
-                        class="flex flex-row gap-3 p-3 hover:bg-zinc-200 rounded-lg transition-all duration-300 text-slate-800 text-base lg:text-lg font-medium  leading-7">
+                      <a href="./call-center.html"
+                        class="flex flex-row gap-3 p-3 hover:bg-zinc-200 active:bg-zinc-200 focus:bg-zinc-200 rounded-lg transition-all duration-300 text-slate-800 text-base lg:text-lg font-medium leading-7">
                         Call center
                       </a>
                     </li>
-
-
-
-
-
                   </ul>
                 </div>
               </li>
-              <li class="relative dropdown transition-all  flex flex-col justify-center">
-
+              <li class="relative dropdown transition-all flex flex-col justify-start">
                 <button
-                  class="dropdown-toggle flex justify-center items-center transition-all cursor-pointer text-slate-800 text-base lg:text-lg font-medium  leading-7  px-1.5 py-1 gap-1  hover:text-slate-500"
+                  class="dropdown-toggle flex justify-start items-center transition-all cursor-pointer text-slate-800 text-base lg:text-lg font-medium leading-7 px-1.5 py-1 gap-1  hover:text-slate-500 active:text-slate-500 focus:text-slate-500 "
                   data-dropdown>
                   Sector empresarial
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none"
@@ -283,114 +252,125 @@
                       stroke-linejoin="round" />
                   </svg>
                 </button>
-                <div
-                  class="dropdown-menu dropdown-content  transition-all w-full p-3 bg-white rounded-xl shadow-custom">
-                  <ul class=" flex flex-col">
+                <div class="dropdown-menu dropdown-content transition-all w-full p-3 bg-white rounded-xl">
+                  <ul class="flex flex-col">
                     <li>
-                      <a href=""
-                        class="flex flex-row gap-3 p-3 hover:bg-zinc-200 rounded-lg transition-all duration-300 text-slate-800 text-base lg:text-lg font-medium  leading-7">
-                        Sistemas RIS y PACs
+                      <a href="./hardware.html"
+                        class="flex flex-row gap-3 p-3 hover:bg-zinc-200 active:bg-zinc-200 focus:bg-zinc-200 rounded-lg transition-all duration-300 text-slate-800 text-base lg:text-lg font-medium leading-7">
+                        Hardware corporativo
                       </a>
                     </li>
 
                     <li>
-                      <a href=""
-                        class="flex flex-row gap-3 p-3 hover:bg-zinc-200 rounded-lg transition-all duration-300 text-slate-800 text-base lg:text-lg font-medium  leading-7">
-                        Growth partner
+                      <a href="./soluciones.html"
+                        class="flex flex-row gap-3 p-3 hover:bg-zinc-200 active:bg-zinc-200 focus:bg-zinc-200 rounded-lg transition-all duration-300 text-slate-800 text-base lg:text-lg font-medium leading-7">
+                        Provisión de tecnología 
                       </a>
                     </li>
-                    <li>
-                      <a href=""
-                        class="flex flex-row gap-3 p-3 hover:bg-zinc-200 rounded-lg transition-all duration-300 text-slate-800 text-base lg:text-lg font-medium  leading-7">
-                        Call center
-                      </a>
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li class="relative dropdown group transition-all  flex flex-col justify-center">
-                <div class="text-center flex justify-center">
-                  <button
-                    class="dropdown-toggle flex justify-center items-center transition-all cursor-pointer text-white text-base lg:text-lg font-medium  leading-7 px-2  lg:px-4 py-1 gap-1 bg-slate-500 rounded-lg"
-                    data-dropdown>
-                    Contáctanos
-                  </button>
-                </div>
-                <div
-                  class="dropdown-menu dropdown-content group-hover:!block transition-all w-full p-3 bg-white rounded-xl shadow-custom">
-                  <ul class=" flex flex-col">
-
-                    <li>
-                      <a href="mailto:+52 664 980 03 03"
-                        class="flex flex-row gap-3 p-3 hover:bg-zinc-200 rounded-lg transition-all duration-300">
-                        <span class="">
-                          <img src="./images/call.svg" alt="call">
-                        </span>
-                        <span class="flex flex-col">
-                          <span class="text-slate-800 text-base lg:text-lg font-medium  leading-7">Atención
-                            telefónica</span>
-                          <span class="text-slate-600 text-base lg:text-lg font-normal  leading-7">+52
-                            (664)
-                            980 03
-                            03</span>
-                        </span>
-                      </a>
-                    </li>
-
-                    <li>
-                      <a href="https://wa.link/tjyxcl"
-                        class="flex flex-row gap-3 p-3 hover:bg-zinc-200 rounded-lg transition-all duration-300">
-                        <span class="">
-                          <img src="./images/whatsapp-dropdown.svg" alt="whatsapp">
-                        </span>
-                        <span class="flex flex-col">
-                          <span class="text-slate-800 text-base lg:text-lg font-medium  leading-7">WhatsApp</span>
-                          <span class="text-slate-600 text-base lg:text-lg font-normal  leading-7">+52
-                            (664)
-                            980 03
-                            03</span>
-                        </span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href="mailto:info@soe.com.mx"
-                        class="flex flex-row gap-3 p-3 hover:bg-zinc-200 rounded-lg transition-all duration-300">
-                        <span class="">
-                          <img src="./images/mail-dropdown.svg" alt="mail">
-                        </span>
-                        <span class="flex flex-col">
-                          <span class="text-slate-800 text-base lg:text-lg font-medium  leading-7">Enviar
-                            mensaje</span>
-                          <span
-                            class="text-slate-600 text-base lg:text-lg font-normal  leading-7">info@soe.com.mx</span>
-                        </span>
-                      </a>
-                    </li>
-                    <li>
-                      <a href=""
-                        class="flex flex-row gap-3 p-3 hover:bg-zinc-200 rounded-lg transition-all duration-300">
-                        <span class="">
-                          <img src="./images/location-dropdown.svg" alt="location">
-                        </span>
-                        <span class="flex flex-col">
-                          <span class="text-slate-800 text-base lg:text-lg font-medium  leading-7">Dirección</span>
-                          <span class="text-slate-600 text-base lg:text-lg font-normal  leading-7">Calle
-                            Ejemplo #123,
-                            Tijuana, B.C.</span>
-                        </span>
-                      </a>
-                    </li>
-
-
-
-
                   </ul>
                 </div>
               </li>
             </ul>
           </nav>
+        </div>
+        <div class="pt-6">
+          <div class="border-b border-[#E7EAEC]"></div>
+          <div class="px-4 py-6 flex flex-row justify-around">
+            <ul class="space-y-3">
+              <li class="flex flex-row gap-1 items-center">
+                <img src="./images/list-menu.svg" alt="recursos" />
+                <h4 class="text-basic-black text-base font-DMSans font-medium">
+                  Recursos
+                </h4>
+              </li>
+              <li>
+                <a href="#" class="text-basic-black text-sm font-DMSans font-normal">Casos de éxito</a>
+              </li>
+              <li>
+                <a href="#" class="text-basic-black text-sm font-DMSans font-normal">FAQ</a>
+              </li>
+              <li>
+                <a href="#" class="text-basic-black text-sm font-DMSans font-normal">Únete a SOE</a>
+              </li>
+            </ul>
+            <ul class="space-y-3">
+              <li class="flex flex-row gap-1 items-center">
+                <img src="./images/shield-menu.svg" alt="recursos" />
+                <h4 class="text-basic-black text-base font-DMSans font-medium">
+                  Aviso legal
+                </h4>
+              </li>
+              <li>
+                <a href="#" class="text-basic-black text-sm font-DMSans font-normal">Aviso de privacidad</a>
+              </li>
+              <li>
+                <a href="#" class="text-basic-black text-sm font-DMSans font-normal">FAQ</a>
+              </li>
+              <li>
+                <a href="#" class="text-basic-black text-sm font-DMSans font-normal">Términos y condiciones</a>
+              </li>
+            </ul>
+          </div>
+          <div class="px-4">
+            <a href="./contactanos.html"
+              class="flex justify-center items-center transition-all cursor-pointer text-white text-base lg:text-lg font-medium leading-7 px-2 lg:px-4 py-[10px] gap-1 bg-slate-500 rounded-lg">
+              Contáctanos
+            </a>
+            <div class="pt-6">
+              <ul class="flex flex-col">
+                <li>
+                  <a href="mailto:+52 664 980 03 03"
+                    class="flex flex-row gap-3 p-3 hover:bg-zinc-200 active:bg-zinc-200 focus:bg-zinc-200 rounded-lg transition-all duration-300">
+                    <span class="mt-1">
+                      <img src="./images/call.svg" alt="call" />
+                    </span>
+                    <span class="flex flex-col">
+                      <span class="text-slate-800 text-base lg:text-lg font-medium leading-7">Atención telefónica</span>
+                      <span class="text-slate-600 text-base lg:text-lg font-normal leading-7">+52 (664) 980 03 03</span>
+                    </span>
+                  </a>
+                </li>
 
-
+                <li>
+                  <a href="https://wa.link/tjyxcl"
+                    class="flex flex-row gap-3 p-3 hover:bg-zinc-200 active:bg-zinc-200 focus:bg-zinc-200 rounded-lg transition-all duration-300">
+                    <span class="mt-1">
+                      <img src="./images/whatsapp-dropdown.svg" alt="whatsapp" />
+                    </span>
+                    <span class="flex flex-col">
+                      <span class="text-slate-800 text-base lg:text-lg font-medium leading-7">WhatsApp</span>
+                      <span class="text-slate-600 text-base lg:text-lg font-normal leading-7">+52 (664) 980 03 03</span>
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href="mailto:info@soe.com.mx"
+                    class="flex flex-row gap-3 p-3 hover:bg-zinc-200 active:bg-zinc-200 focus:bg-zinc-200 rounded-lg transition-all duration-300">
+                    <span class="mt-1">
+                      <img src="./images/mail-dropdown.svg" alt="mail" />
+                    </span>
+                    <span class="flex flex-col">
+                      <span class="text-slate-800 text-base lg:text-lg font-medium leading-7">Enviar mensaje</span>
+                      <span class="text-slate-600 text-base lg:text-lg font-normal leading-7">info@soe.com.mx</span>
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a href=""
+                    class="flex flex-row gap-3 p-3 hover:bg-zinc-200 active:bg-zinc-200 focus:bg-zinc-200 rounded-lg transition-all duration-300">
+                    <span class="mt-1">
+                      <img src="./images/location-dropdown.svg" alt="location" />
+                    </span>
+                    <span class="flex flex-col">
+                      <span class="text-slate-800 text-base lg:text-lg font-medium leading-7">Dirección</span>
+                      <span class="text-slate-600 text-base lg:text-lg font-normal leading-7">Calle Ejemplo #123,
+                        Tijuana, B.C.</span>
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -410,13 +390,13 @@
                 Call center
               </h1>
               <div class="flex flex-col gap-6 w-full">
-                <p class="text-gray-dark text-lg font-normal  leading-7 text-center">
+                <p class="text-gray-dark text-lg font-normal leading-7 text-center">
                   Soluciones para call centers que mejoran la eficiencia y la
                   experiencia del cliente.
                 </p>
 
                 <a href="#"
-                  class="w-full max-w-[403px] min-h-16 max-h-16 p-4 bg-slate-500 border border-slate-500 hover:bg-transparent hover:text-slate-500 rounded-lg inline-flex flex-col justify-center items-center gap-3.5 text-center text-white text-lg font-medium  leading-7 self-center">
+                  class="w-full max-w-[403px] min-h-16 max-h-16 p-4 bg-slate-500 border border-slate-500 hover:bg-transparent  hover:text-slate-500 active:text-slate-500 focus:text-slate-500  rounded-lg inline-flex flex-col justify-center items-center gap-3.5 text-center text-white text-lg font-medium leading-7 self-center focus:bg-white focus:shadow transition-colors duration-300">
                   Conoce más
                 </a>
               </div>
@@ -433,12 +413,12 @@
     <section class="py-12 md:py-15 lg:py-24">
       <div class="container space-y-9 md:space-y-16">
         <!-- text -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 text-center lg:text-start">
           <h2
             class="text-basic-black text-[34px] md:text-4xl lg:text-5xl font-medium font-ClashDisplay leading-[46px] md:leading-[48px] lg:leading-[60px]">
             ¿Qué incluye nuestro servicio de Call Center?
           </h2>
-          <p class="text-gray-dark text-lg font-normal  leading-7 w-full lg:max-w-[492px]">
+          <p class="text-gray-dark text-lg font-normal leading-7 w-full lg:max-w-[492px]">
             Somos una empresa especializada en soluciones de atención al
             cliente y soporte técnico, ofreciendo una experiencia superior
             para empresas de todos los sectores.
@@ -449,9 +429,9 @@
           <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
             <!-- card 1 -->
             <div
-              class="flex flex-col justify-between flex-grow gap-6 bg-accent-tertiary p-6 rounded-xl min-h-[300px] md:min-h-[350px] lg:min-h-[309px]">
+              class="flex flex-col justify-between flex-grow gap-6 bg-accent-tertiary p-6 rounded-xl min-h-[200px] md:min-h-[275px] lg:min-h-[275px]">
               <div>
-                <img src="./images/plus.svg" alt="plus" />
+                <img src="./images/plus-green.svg" alt="plus" class="min-w-8 min-h-8" />
               </div>
               <h3
                 class="text-basic-black text-2xl md:text-[28px] lg:text-4xl leading-8 md:leading-9 lg:leading-12 font-medium font-ClashDisplay">
@@ -460,9 +440,9 @@
             </div>
             <!-- card 2 -->
             <div
-              class="flex flex-col justify-between flex-grow gap-6 bg-accent-tertiary p-6 rounded-xl min-h-[300px] md:min-h-[350px] lg:min-h-[309px]">
+              class="flex flex-col justify-between flex-grow gap-6 bg-accent-tertiary p-6 rounded-xl min-h-[200px] md:min-h-[275px] lg:min-h-[275px]">
               <div>
-                <img src="./images/plus.svg" alt="plus" />
+                <img src="./images/plus-green.svg" alt="plus" class="min-w-8 min-h-8" />
               </div>
               <h3
                 class="text-basic-black text-2xl md:text-[28px] lg:text-4xl leading-8 md:leading-9 lg:leading-12 font-medium font-ClashDisplay">
@@ -471,9 +451,9 @@
             </div>
             <!-- card 3 -->
             <div
-              class="flex flex-col justify-between flex-grow gap-6 bg-accent-tertiary p-6 rounded-xl min-h-[300px] md:min-h-[350px] lg:min-h-[309px]">
+              class="flex flex-col justify-between flex-grow gap-6 bg-accent-tertiary p-6 rounded-xl min-h-[200px] md:min-h-[275px] lg:min-h-[275px]">
               <div>
-                <img src="./images/plus.svg" alt="plus" />
+                <img src="./images/plus-green.svg" alt="plus" class="min-w-8 min-h-8" />
               </div>
               <h3
                 class="text-basic-black text-2xl md:text-[28px] lg:text-4xl leading-8 md:leading-9 lg:leading-12 font-medium font-ClashDisplay">
@@ -482,9 +462,9 @@
             </div>
             <!-- card 4 -->
             <div
-              class="flex flex-col justify-between flex-grow gap-6 bg-accent-tertiary p-6 rounded-xl min-h-[300px] md:min-h-[350px] lg:min-h-[309px]">
+              class="flex flex-col justify-between flex-grow gap-6 bg-accent-tertiary p-6 rounded-xl min-h-[200px] md:min-h-[275px] lg:min-h-[275px]">
               <div>
-                <img src="./images/plus.svg" alt="plus" />
+                <img src="./images/plus-green.svg" alt="plus" class="min-w-8 min-h-8" />
               </div>
               <h3
                 class="text-basic-black text-2xl md:text-[28px] lg:text-4xl leading-8 md:leading-9 lg:leading-12 font-medium font-ClashDisplay">
@@ -501,18 +481,13 @@
         <div
           class="flex flex-col justify-end p-6 rounded-tl-[120px] rounded-tr-xl rounded-bl-xl rounded-br-xl bg-slate-500 min-h-[343px] md:min-h-[360px] gap-6 bg-[url('../images/shape-1.svg')] bg-top-right bg-no-repeat lg:col-span-1 md:col-span-1 col-span-1">
           <div class="">
-            <img src="./images/atencion.svg" alt="atencion" />
+            <img src="./images/learn-icon.svg" alt="atencion" />
           </div>
           <div class="flex flex-col gap-1.5">
             <h4
-              class="text-white text-xl md:text-[22px] lg:text-2xl font-medium font-ClashDisplay leading-5 md:leading-7.5 lg:leading-9">
-              Atención especializada
+              class="text-white text-xl md:text-[22px] lg:text-2xl font-medium font-ClashDisplay md:leading-7.5 lg:leading-9">
+              Atención profesional en tiempo real
             </h4>
-            <p class="text-white text-sm md:text-base font-normal  leading-5 md:leading-normal">
-              Contamos con un equipo capacitado en salud y tecnología
-              empresarial, listo para brindarte soluciones precisas, rápidas y
-              personalizadas según las necesidades de tu organización.
-            </p>
           </div>
         </div>
         <!-- single item end -->
@@ -520,19 +495,14 @@
         <!-- single item start  -->
         <div
           class="flex flex-col justify-between p-6 rounded-tl-xl rounded-tr-xl rounded-bl-xl rounded-br-[120px] bg-gray-200 min-h-[343px] md:min-h-[360px] gap-6 bg-[url('../images/shape-2.svg')] bg-bottom-right bg-no-repeat lg:col-span-1 md:col-span-1 col-span-1">
-          <div class="lg:order-2">
-            <img src="./images/desarrollo.svg" alt="desarrollo" />
+          <div class="order-2">
+            <img src="./images/chat-icon.svg" alt="desarrollo" />
           </div>
-          <div class="flex flex-col gap-1.5 lg:order-1">
+          <div class="flex flex-col gap-1.5 order-1">
             <h4
-              class="text-slate-800 text-xl md:text-[22px] lg:text-2xl font-medium font-ClashDisplay leading-5 md:leading-7.5 lg:leading-9">
-              Desarrollo a la medida
+              class="text-slate-800 text-xl md:text-[22px] lg:text-2xl font-medium font-ClashDisplay md:leading-7.5 lg:leading-9">
+              Personal capacitado en lenguaje médico o corporativo
             </h4>
-            <p class="text-slate-800text-base text-sm md:text-base font-normal  leading-5 md:leading-normal">
-              Creamos software personalizado que se adapta completamente a tus
-              procesos, objetivos y flujo de trabajo, garantizando eficiencia
-              operativa y escalabilidad real para tu negocio.
-            </p>
           </div>
         </div>
         <!-- single item end -->
@@ -540,19 +510,13 @@
         <div
           class="flex flex-col justify-between p-6 rounded-tl-xl rounded-tr-[120px] rounded-bl-xl rounded-br-xl bg-accent-primary min-h-[343px] md:min-h-[360px] gap-6 bg-[url('../images/shape-1.svg')] bg-top-right bg-no-repeat lg:col-span-1 md:col-span-2 col-span-1">
           <div class="">
-            <img src="./images/seguridad.svg" alt="atencion" />
+            <img src="./images/automizer-icon.svg" alt="atencion" />
           </div>
           <div class="flex flex-col gap-1.5">
             <h4
-              class="text-white text-xl md:text-[22px] lg:text-2xl font-medium font-ClashDisplay leading-5 md:leading-7.5 lg:leading-9">
-              Seguridad
+              class="text-white text-xl md:text-[22px] lg:text-2xl font-medium font-ClashDisplay md:leading-7.5 lg:leading-9">
+              Reducción de carga operativa para tu equipo interno
             </h4>
-            <p class="text-white text-sm md:text-base font-normal  leading-5 md:leading-normal">
-              Implementamos protocolos avanzados de seguridad que garantizan
-              la confidencialidad, integridad y disponibilidad de tu
-              información, cumpliendo con estándares del sector médico y
-              empresarial.
-            </p>
           </div>
         </div>
         <!-- single item end -->
@@ -560,10 +524,10 @@
         <div class="lg:col-span-3 md:col-span-2 col-span-1 flex flex-col md:flex-row justify-between gap-3">
           <!-- single item start  -->
           <div
-            class="flex flex-col justify-between p-6 rounded-tl-xl rounded-tr-xl rounded-bl-xl rounded-br-[120px] bg-accent-primary min-h-[343px] md:min-h-[360px] gap-6 bg-[url('../images/shape-2.svg')] bg-bottom-right bg-no-repeat w-full md:w-1/2">
+            class="flex flex-col justify-between p-6 rounded-tl-xl rounded-tr-xl rounded-bl-xl rounded-br-[120px] bg-gray-200 lg:bg-accent-primary min-h-[343px] md:min-h-[360px] gap-6 bg-[url('../images/shape-2.svg')] bg-bottom-right bg-no-repeat w-full md:w-1/2">
             <div class="flex flex-col gap-1.5">
               <h4
-                class="text-white text-xl md:text-[22px] lg:text-2xl font-medium font-ClashDisplay leading-5 md:leading-7.5 lg:leading-9">
+                class="text-slate-800 lg:text-white text-xl md:text-[22px] lg:text-2xl font-medium font-ClashDisplay md:leading-7.5 lg:leading-9">
                 Mejora en la experiencia del paciente o cliente
               </h4>
             </div>
@@ -580,7 +544,7 @@
             </div>
             <div class="flex flex-col gap-1.5">
               <h4
-                class="text-white text-xl md:text-[22px] lg:text-2xl font-medium font-ClashDisplay leading-5 md:leading-7.5 lg:leading-9">
+                class="text-white text-xl md:text-[22px] lg:text-2xl font-medium font-ClashDisplay md:leading-7.5 lg:leading-9">
                 Reportes periódicos de desempeño y llamadas
               </h4>
             </div>
@@ -607,24 +571,24 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-6 w-full">
               <!-- single item end  -->
               <div
-                class="w-full md:min-h-[152px] p-6 bg-gray-light rounded-xl flex flex-col justify-between items-start h-full gap-6">
+                class="w-full md:min-h-[152px] p-6 bg-gray-light rounded-xl flex flex-col justify-between items-start h-full gap-7.5 lg:gap-6">
                 <h4
                   class="text-basic-black font-ClashDisplay font-medium text-xl leading-6 md:text-[22px] md:leading-[30px] lg:text-2xl lg:leading-9">
                   Call center para clínicas
                 </h4>
-                <p class="self-stretch justify-start text-slate-800 text-lg font-normal  leading-7">
+                <p class="self-stretch justify-start text-slate-800 text-lg font-normal leading-7">
                   agendamiento, seguimiento y notificaciones
                 </p>
               </div>
               <!-- single item start  -->
               <!-- single item end  -->
               <div
-                class="w-full md:min-h-[152px] p-6 bg-gray-light rounded-xl flex flex-col justify-between items-start h-full gap-6">
+                class="w-full md:min-h-[152px] p-6 bg-gray-light rounded-xl flex flex-col justify-between items-start h-full gap-7.5 lg:gap-6">
                 <h4
                   class="text-basic-black font-ClashDisplay font-medium text-xl leading-6 md:text-[22px] md:leading-[30px] lg:text-2xl lg:leading-9">
                   Call center empresarial
                 </h4>
-                <p class="self-stretch justify-start text-slate-800 text-lg font-normal  leading-7">
+                <p class="self-stretch justify-start text-slate-800 text-lg font-normal leading-7">
                   atención a clientes, soporte y gestión de leads
                 </p>
               </div>
@@ -641,24 +605,24 @@
           <div class="col-span-1 md:col-span-8 lg:col-span-3 flex flex-col md:flex-row lg:flex-col gap-4 md:gap-6">
             <!-- single item start  -->
             <div
-              class="w-full md:w-1/2 lg:w-full p-6 bg-gray-light rounded-xl flex flex-col justify-between items-start h-full gap-6">
+              class="w-full md:w-1/2 lg:w-full p-6 bg-gray-light rounded-xl flex flex-col justify-between items-start h-full gap-7.5 lg:gap-6">
               <h4
                 class="text-basic-black font-ClashDisplay font-medium text-xl leading-6 md:text-[22px] md:leading-[30px] lg:text-2xl lg:leading-9">
                 Servicio parcial o integral
               </h4>
-              <p class="self-stretch justify-start text-slate-800 text-lg font-normal  leading-7">
+              <p class="self-stretch justify-start text-slate-800 text-lg font-normal leading-7">
                 solo confirmaciones, o 24/7
               </p>
             </div>
             <!-- single item start  -->
             <!-- single item end  -->
             <div
-              class="w-full md:w-1/2 lg:w-full p-6 bg-gray-light rounded-xl flex flex-col justify-between items-start h-full gap-6">
+              class="w-full md:w-1/2 lg:w-full p-6 bg-gray-light rounded-xl flex flex-col justify-between items-start h-full gap-7.5 lg:gap-6">
               <h4
                 class="text-basic-black font-ClashDisplay font-medium text-xl leading-6 md:text-[22px] md:leading-[30px] lg:text-2xl lg:leading-9">
                 Idiomas disponibles
               </h4>
-              <p class="self-stretch justify-start text-slate-800 text-lg font-normal  leading-7">
+              <p class="self-stretch justify-start text-slate-800 text-lg font-normal leading-7">
                 Español <br />Inglés
               </p>
             </div>
@@ -670,19 +634,19 @@
     <!-- ¿Por qué un software a la medida? end -->
     <!-- solutions start -->
     <section class="solutions py-12 md:py-15 lg:py-24 bg-accent-secondary">
-      <div class="container flex flex-col lg:flex-row items-center justify-between gap-12 lg:gap-16">
-        <div class="w-full lg:max-w-[660px] space-y-6">
+      <div class="container flex flex-col lg:flex-row items-center justify-between gap-8 lg:gap-16">
+        <div class="w-full lg:max-w-[660px] space-y-6 text-center lg:text-start">
           <h4
             class="text-[34px] md:text-4xl lg:text-5xl font-medium leading-11.5 md:leading-12 lg:leading-15 text-basic-white font-ClashDisplay">
             ¿Quieres mejorar tu atención sin cargar a tu equipo?
           </h4>
-          <p class=" font-normal text-sm md:text-base text-basic-white leading-5 md:leading-6 w-full">
+          <p class="font-normal text-sm md:text-base text-basic-white leading-5 md:leading-6 w-full">
             Ofrece una experiencia profesional a tus usuarios desde la primera
             llamada.
           </p>
           <div>
             <a href="#"
-              class="px-16 py-3 bg-basic-white hover:bg-accent-primary text-accent-primary hover:text-basic-white  text-lg font-medium rounded-lg inline-flex items-center justify-center hover:bg-accent-secondary transition duration-300 border border-basic-white">
+              class="md:px-16 px-3 py-3 bg-basic-white text-accent-primary hover:text-basic-white text-lg font-medium rounded-lg inline-flex items-center justify-center hover:bg-accent-secondary transition duration-300 border border-basic-white sm:w-auto w-full">
               Solicita una demo gratuita</a>
           </div>
         </div>
@@ -705,7 +669,7 @@
 
           <!-- doc -->
           <div class="flex flex-col items-start gap-6">
-            <p class="text-gray-dark text-lg font-normal  leading-7 w-full lg:max-w-[492px]">
+            <p class="text-gray-dark text-lg font-normal leading-7 w-full lg:max-w-[492px]">
               Encuentra respuestas claras sobre nuestros servicios, procesos y
               tecnologías. Si no ves lo que buscas, contáctanos y te
               ayudaremos con gusto.
@@ -756,10 +720,10 @@
         <!-- Slider wrapper with only left container spacing -->
         <div class="overflow-x-auto pl-4 sm:pl-8 lg:pl-16 2xl:pl-[calc((100vw-1216px)/2)]">
           <!-- Swiper Container -->
-          <div class="swiper frecuentesSwiper h-[584px] md:h-[686px]">
+          <div class="swiper frecuentesSwiper pl-4 pr-12 md:pl-8 md:pr-16 lg:pl-16 lg:pr-24 h-[584px] md:h-[686px]">
             <div class="swiper-wrapper">
               <!-- Slide 1 -->
-              <div class="swiper-slide h-full flex rounded-xl max-w-[250px] md:max-w-[420px] w-full shrink-0">
+              <div class="swiper-slide w-[85%] sm:w-[60%] md:w-[45%] lg:w-[33%] shrink-0 h-full">
                 <div
                   class="relative h-full w-full flex flex-col justify-end items-end rounded-xl p-6 bg-gray-light hover:bg-accent-primary text-white overflow-hidden group/slider">
                   <!-- main -->
@@ -783,7 +747,7 @@
                       ¿Cómo saber qué solución es la adecuada para mi
                       organización?
                     </h4>
-                    <p class=" font-normal text-sm md:text-base text-basic-white leading-5 md:leading-6 pt-6">
+                    <p class="font-normal text-sm md:text-base text-basic-white leading-5 md:leading-6 pt-6">
                       Antes de comenzar cualquier proyecto, analizamos tus
                       necesidades específicas mediante una consultoría inicial
                       gratuita. Evaluamos el sector en el que operas, tus
@@ -798,7 +762,7 @@
                 </div>
               </div>
               <!-- Slide 2 -->
-              <div class="swiper-slide h-full flex rounded-xl max-w-[250px] md:max-w-[420px] w-full shrink-0">
+              <div class="swiper-slide w-[85%] sm:w-[60%] md:w-[45%] lg:w-[33%] shrink-0 h-full">
                 <div
                   class="relative h-full w-full flex flex-col justify-end items-end rounded-xl p-6 bg-gray-light hover:bg-accent-primary text-white overflow-hidden group/slider">
                   <!-- main -->
@@ -822,7 +786,7 @@
                       ¿Cuál es el proceso para iniciar un proyecto con
                       ustedes?
                     </h4>
-                    <p class=" font-normal text-sm md:text-base text-basic-white leading-5 md:leading-6 pt-6">
+                    <p class="font-normal text-sm md:text-base text-basic-white leading-5 md:leading-6 pt-6">
                       Antes de comenzar cualquier proyecto, analizamos tus
                       necesidades específicas mediante una consultoría inicial
                       gratuita. Evaluamos el sector en el que operas, tus
@@ -837,7 +801,7 @@
                 </div>
               </div>
               <!-- Slide 3 -->
-              <div class="swiper-slide h-full flex rounded-xl max-w-[250px] md:max-w-[420px] w-full shrink-0">
+              <div class="swiper-slide w-[85%] sm:w-[60%] md:w-[45%] lg:w-[33%] shrink-0 h-full">
                 <div
                   class="relative h-full w-full flex flex-col justify-end items-end rounded-xl p-6 bg-gray-light hover:bg-accent-primary text-white overflow-hidden group/slider">
                   <!-- main -->
@@ -861,7 +825,7 @@
                       ¿Qué tipo de soporte ofrecen durante y después del
                       proyecto?
                     </h4>
-                    <p class=" font-normal text-sm md:text-base text-basic-white leading-5 md:leading-6 pt-6">
+                    <p class="font-normal text-sm md:text-base text-basic-white leading-5 md:leading-6 pt-6">
                       Antes de comenzar cualquier proyecto, analizamos tus
                       necesidades específicas mediante una consultoría inicial
                       gratuita. Evaluamos el sector en el que operas, tus
@@ -876,7 +840,7 @@
                 </div>
               </div>
               <!-- Slide 4 -->
-              <div class="swiper-slide h-full flex rounded-xl max-w-[250px] md:max-w-[420px] w-full shrink-0">
+              <div class="swiper-slide w-[85%] sm:w-[60%] md:w-[45%] lg:w-[33%] shrink-0 h-full">
                 <div
                   class="relative h-full w-full flex flex-col justify-end items-end rounded-xl p-6 bg-gray-light hover:bg-accent-primary text-white overflow-hidden group/slider">
                   <!-- main -->
@@ -898,7 +862,7 @@
                       class="text-2xl md:text-3xl lg:text-4xl font-medium leading-8 md:leading-9 lg:leading-12 max-w-[372px] text-basic-white font-ClashDisplay">
                       ¿Hay costos adicionales por soporte o mantenimiento?
                     </h4>
-                    <p class=" font-normal text-sm md:text-base text-basic-white leading-5 md:leading-6 pt-6">
+                    <p class="font-normal text-sm md:text-base text-basic-white leading-5 md:leading-6 pt-6">
                       Antes de comenzar cualquier proyecto, analizamos tus
                       necesidades específicas mediante una consultoría inicial
                       gratuita. Evaluamos el sector en el que operas, tus
@@ -913,7 +877,7 @@
                 </div>
               </div>
               <!-- Slide 5 -->
-              <div class="swiper-slide h-full flex rounded-xl max-w-[250px] md:max-w-[420px] w-full shrink-0">
+              <div class="swiper-slide w-[85%] sm:w-[60%] md:w-[45%] lg:w-[33%] shrink-0 h-full">
                 <div
                   class="relative h-full w-full flex flex-col justify-end items-end rounded-xl p-6 bg-gray-light hover:bg-accent-primary text-white overflow-hidden group/slider">
                   <!-- main -->
@@ -937,7 +901,7 @@
                       ¿Cómo saber qué solución es la adecuada para mi
                       organización?
                     </h4>
-                    <p class=" font-normal text-sm md:text-base text-basic-white leading-5 md:leading-6 pt-6">
+                    <p class="font-normal text-sm md:text-base text-basic-white leading-5 md:leading-6 pt-6">
                       Antes de comenzar cualquier proyecto, analizamos tus
                       necesidades específicas mediante una consultoría inicial
                       gratuita. Evaluamos el sector en el que operas, tus
@@ -959,45 +923,44 @@
     <!-- frecuentes preguntas end -->
   </main>
 
-
-
-
-  <footer class=" bg-zinc-200 bg-[url('../images/shape-footer.svg')] bg-no-repeat bg-right-top">
+  <footer class="bg-zinc-200 bg-[url('../images/shape-footer.svg')] bg-no-repeat bg-right-top">
     <div class="container pt-24 pb-12 grid lg:grid-cols-12 sm:grid-cols-3 grid-cols-2 lg:gap-6 gap-y-12 gap-x-3">
       <!-- single item start  -->
       <div class="xl:col-span-4 sm:col-span-3 col-span-2 flex flex-col gap-9">
         <div>
           <a href="">
-            <img src="./images/logo.svg" alt="soe-logo">
+            <img src="./images/logo.svg" alt="soe-logo" />
           </a>
         </div>
         <ul class="flex flex-col gap-4">
-          <li><a href="mailto:info@soe.com.mx"
-              class="flex flex-row items-center gap-1.5 text-slate-800 text-base font-normal  leading-normal hover:text-slate-500 transition-colors duration-300">
+          <li>
+            <a href="mailto:info@soe.com.mx"
+              class="flex flex-row items-center gap-1.5 text-slate-800 text-base font-normal leading-normal  hover:text-slate-500 active:text-slate-500 focus:text-slate-500  transition-colors duration-300">
               <span>
-                <img src="images/mail.svg" alt="mail">
+                <img src="images/mail.svg" alt="mail" />
               </span>
-              <span>
-                info@soe.com.mx</sp>
-            </a></li>
+              <span> info@soe.com.mx</span>
+            </a>
+          </li>
 
-          <li><a href=""
-              class="flex flex-row items-center gap-1.5 text-slate-800 text-base font-normal  leading-normal hover:text-slate-500 transition-colors duration-300">
+          <li>
+            <a href=""
+              class="flex flex-row items-center gap-1.5 text-slate-800 text-base font-normal leading-normal  hover:text-slate-500 active:text-slate-500 focus:text-slate-500  transition-colors duration-300">
               <span>
-                <img src="images/location.svg" alt="location">
+                <img src="images/location.svg" alt="location" />
               </span>
+              <span> Calle Ejemplo #123, Tijuana, B.C.</span>
+            </a>
+          </li>
+          <li>
+            <a href="tel:+52 664 980 03 03"
+              class="flex flex-row items-center gap-1.5 text-slate-800 text-base font-normal leading-normal  hover:text-slate-500 active:text-slate-500 focus:text-slate-500  transition-colors duration-300">
               <span>
-                Calle Ejemplo #123, Tijuana, B.C.</sp>
-            </a></li>
-          <li><a href="tel:+52 664 980 03 03"
-              class="flex flex-row items-center gap-1.5 text-slate-800 text-base font-normal  leading-normal hover:text-slate-500 transition-colors duration-300">
-              <span>
-                <img src="images/phone.svg" alt="phone">
+                <img src="images/phone.svg" alt="phone" />
               </span>
-              <span>
-                +52 (664) 980 03 03</sp>
-            </a></li>
-
+              <span> +52 (664) 980 03 03</span>
+            </a>
+          </li>
         </ul>
       </div>
       <!-- single item end -->
@@ -1009,20 +972,35 @@
           Enlaces rápidos
         </h4>
         <ul class="mt-4 space-y-2 pl-8">
-          <li><a href="#"
-              class="text-slate-600 text-base  hover:text-slate-500 transition-colors duration-300">Desarrollo</a>
+          <li>
+            <a href="#"
+              class="text-slate-600 text-base  hover:text-slate-500 active:text-slate-500 focus:text-slate-500  transition-colors duration-300">Desarrollo</a>
           </li>
-          <li><a href="#" class="text-slate-600 text-base  hover:text-slate-500 transition-colors duration-300">Sistemas
-              RIS y PACs</a></li>
-          <li><a href="#" class="text-slate-600 text-base  hover:text-slate-500 transition-colors duration-300">Growth
-              partner</a></li>
-          <li><a href="#" class="text-slate-600 text-base  hover:text-slate-500 transition-colors duration-300">Call
-              center</a></li>
-          <li><a href="#" class="text-slate-600 text-base  hover:text-slate-500 transition-colors duration-300">Hardware
-              corporativo</a></li>
-          <li><a href="#"
-              class="text-slate-600 text-base  hover:text-slate-500 transition-colors duration-300">Provisión
-              de tecnología</a></li>
+          <li>
+            <a href="#"
+              class="text-slate-600 text-base  hover:text-slate-500 active:text-slate-500 focus:text-slate-500  transition-colors duration-300">Sistemas
+              RIS y PACs</a>
+          </li>
+          <li>
+            <a href="#"
+              class="text-slate-600 text-base  hover:text-slate-500 active:text-slate-500 focus:text-slate-500  transition-colors duration-300">Growth
+              partner</a>
+          </li>
+          <li>
+            <a href="#"
+              class="text-slate-600 text-base  hover:text-slate-500 active:text-slate-500 focus:text-slate-500  transition-colors duration-300">Call
+              center</a>
+          </li>
+          <li>
+            <a href="#"
+              class="text-slate-600 text-base  hover:text-slate-500 active:text-slate-500 focus:text-slate-500  transition-colors duration-300">Hardware
+              corporativo</a>
+          </li>
+          <li>
+            <a href="#"
+              class="text-slate-600 text-base  hover:text-slate-500 active:text-slate-500 focus:text-slate-500  transition-colors duration-300">Provisión
+              de tecnología</a>
+          </li>
         </ul>
       </div>
 
@@ -1033,16 +1011,30 @@
           Recursos
         </h4>
         <ul class="mt-4 space-y-2 pl-8">
-          <li><a href="#" class="text-slate-600 text-base  hover:text-slate-500 transition-colors duration-300">Casos de
-              éxito</a></li>
-          <li><a href="#" class="text-slate-600 text-base  hover:text-slate-500 transition-colors duration-300">FAQ</a>
+          <li>
+            <a href="#"
+              class="text-slate-600 text-base  hover:text-slate-500 active:text-slate-500 focus:text-slate-500  transition-colors duration-300">Casos
+              de
+              éxito</a>
           </li>
-          <li><a href="#" class="text-slate-600 text-base  hover:text-slate-500 transition-colors duration-300">Únete a
-              SOE</a></li>
-          <li><a href="#" class="text-slate-600 text-base  hover:text-slate-500 transition-colors duration-300">Soporte
-              técnico</a></li>
-          <li><a href="#"
-              class="text-slate-600 text-base  hover:text-slate-500 transition-colors duration-300">Contacto</a>
+          <li>
+            <a href="#"
+              class="text-slate-600 text-base  hover:text-slate-500 active:text-slate-500 focus:text-slate-500  transition-colors duration-300">FAQ</a>
+          </li>
+          <li>
+            <a href="#"
+              class="text-slate-600 text-base  hover:text-slate-500 active:text-slate-500 focus:text-slate-500  transition-colors duration-300">Únete
+              a
+              SOE</a>
+          </li>
+          <li>
+            <a href="#"
+              class="text-slate-600 text-base  hover:text-slate-500 active:text-slate-500 focus:text-slate-500  transition-colors duration-300">Soporte
+              técnico</a>
+          </li>
+          <li>
+            <a href="#"
+              class="text-slate-600 text-base  hover:text-slate-500 active:text-slate-500 focus:text-slate-500  transition-colors duration-300">Contacto</a>
           </li>
         </ul>
       </div>
@@ -1054,35 +1046,50 @@
           Aviso legal
         </h4>
         <ul class="mt-4 space-y-2 pl-8">
-          <li><a href="#" class="text-slate-600 text-base  hover:text-slate-500 transition-colors duration-300">Aviso de
-              privacidad</a></li>
-          <li><a href="#" class="text-slate-600 text-base  hover:text-slate-500 transition-colors duration-300">Política
-              de cookies</a></li>
-          <li><a href="#" class="text-slate-600 text-base  hover:text-slate-500 transition-colors duration-300">Términos
-              y condiciones</a></li>
+          <li>
+            <a href="#"
+              class="text-slate-600 text-base  hover:text-slate-500 active:text-slate-500 focus:text-slate-500  transition-colors duration-300">Aviso
+              de
+              privacidad</a>
+          </li>
+          <li>
+            <a href="#"
+              class="text-slate-600 text-base  hover:text-slate-500 active:text-slate-500 focus:text-slate-500  transition-colors duration-300">Política
+              de
+              cookies</a>
+          </li>
+          <li>
+            <a href="#"
+              class="text-slate-600 text-base  hover:text-slate-500 active:text-slate-500 focus:text-slate-500  transition-colors duration-300">Términos
+              y
+              condiciones</a>
+          </li>
         </ul>
       </div>
-
-
     </div>
     <!-- copyright start  -->
-    <div class="py-12 bg-cyan-900 border-t border-gray-200 ">
+    <div class="py-12 bg-cyan-900 border-t border-gray-200">
       <div
         class="container flex flex-row flex-wrap md:justify-between justify-center gap-6 md:text-start text-center items-center">
-        <p class="text-gray-200 text-sm font-normal  leading-tight">© <span id="year"></span> SOE -
-          Software
-          Empresarial. Todos los derechos reservados.</p>
+        <p class="text-gray-200 text-sm font-normal leading-tight">
+          © <span id="year"></span> SOE - Software Empresarial. Todos los
+          derechos reservados.
+        </p>
         <ul class="flex flex-row gap-6 items-center md:justify-start justify-center md:m-0 m-auto">
-          <li><a href=""><img src="./images/facebook.svg" alt="facebook"></a></li>
-          <li><a href=""><img src="./images/twitter.svg" alt="twitter"></a></li>
-          <li><a href=""><img src="./images/tiktok.svg" alt="tiktok"></a></li>
-
+          <li>
+            <a href=""><img src="./images/facebook.svg" alt="facebook" /></a>
+          </li>
+          <li>
+            <a href=""><img src="./images/twitter.svg" alt="twitter" /></a>
+          </li>
+          <li>
+            <a href=""><img src="./images/tiktok.svg" alt="tiktok" /></a>
+          </li>
         </ul>
       </div>
     </div>
     <!-- copyright end -->
   </footer>
-
 
   <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script src="./js/index.js"></script>
