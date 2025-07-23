@@ -203,8 +203,6 @@ select:invalid {
   pointer-events: none;
 }
 
-.groupItem {
-}
 .groupItem:hover .item1 {
   opacity: 0;
 }
