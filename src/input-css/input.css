@@ -33,7 +33,9 @@
   --color-basic-black: #13293d;
   --color-light-green: #d8e8e6;
 }
-
+.Bggradient {
+  @apply bg-gradient-to-b from-[#19387e] to-[#17274b];
+}
 .container {
   width: 100%;
   max-width: var(--container-xl);
@@ -96,9 +98,6 @@ body {
   background: linear-gradient(180deg, #3c8b84 -50%, #fefefd 99%);
 }
 
-.Bggradient {
-  @apply bg-gradient-to-b from-[#19387e] to-[#17274b];
-}
 .Bggradient:hover {
   background: linear-gradient(
     180deg,
@@ -218,4 +217,7 @@ select:invalid {
 }
 .groupItemNew:hover .item2 {
   display: inline-block;
+}
+.bgPhone {
+  background: linear-gradient(180deg, #3c8b84 -17.43%, #fefefd 101.05%);
 }

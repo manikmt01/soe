@@ -87,7 +87,7 @@ closeMobileBtn.addEventListener("click", () => {
 // swiper slider
 
 const servicesSwiper = new Swiper(".servicesSwiper", {
-  slidesPerView: 1.2,
+  slidesPerView: "auto",
   spaceBetween: 12,
   loop: true,
   navigation: {
@@ -96,7 +96,7 @@ const servicesSwiper = new Swiper(".servicesSwiper", {
   },
   breakpoints: {
     640: {
-      slidesPerView: 1.5,
+      slidesPerView: "auto",
     },
     768: {
       slidesPerView: 2.2,
@@ -109,8 +109,8 @@ const servicesSwiper = new Swiper(".servicesSwiper", {
 
 //dev
 const devsswiper = new Swiper(".devSwiper", {
-  slidesPerView: 2.2,
-  spaceBetween: 16,
+  slidesPerView: "auto",
+  spaceBetween: 12,
   loop: true,
   navigation: {
     nextEl: ".swiperdev-next",
@@ -118,28 +118,27 @@ const devsswiper = new Swiper(".devSwiper", {
   },
   breakpoints: {
     640: {
-      slidesPerView: 1.1,
+      slidesPerView: "auto",
     },
     768: {
-      slidesPerView: 1.1,
+      slidesPerView: "auto",
     },
     1024: {
-      slidesPerView: 1.1, 
+      slidesPerView: "auto",
     },
     1280: {
-      slidesPerView: 2.2, 
+      slidesPerView: 2.2,
     },
   },
 });
 
 window.addEventListener("DOMContentLoaded", function () {
   const frecuentesswiper = new Swiper(".frecuentesSwiper", {
-    slidesPerView: 1.2,
+    slidesPerView: "auto",
     spaceBetween: 12,
-    freeMode: true,
     loop: true,
     autoplay: {
-      delay: 3000,
+      delay: 5000,
       disableOnInteraction: false,
     },
     navigation: {
@@ -147,9 +146,10 @@ window.addEventListener("DOMContentLoaded", function () {
       prevEl: ".frecuentes-prev",
     },
     breakpoints: {
-      640: { slidesPerView: 1.5 },
+      640: { slidesPerView: "auto" },
+      640: { slidesPerView: 2.4 },
       768: { slidesPerView: 2.5 },
-      1024: { slidesPerView: 3.5 },
+      1024: { slidesPerView: 3.6 },
     },
   });
 });
