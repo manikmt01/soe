@@ -378,7 +378,7 @@
   <main>
     <!-- tectnologia start -->
     <section class="tecnologia px-3">
-      <div class="py-12 md:py-15 lg:py-24 tecnologia-bg rounded-xl">
+      <div class="py-12 md:pt-15 md:pb-0  lg:py-24 tecnologia-bg rounded-xl">
         <!-- desktop -->
         <div class="relative w-full hidden lg:block">
           <!-- Slider wrapper with only left container spacing -->
@@ -410,20 +410,21 @@
         </div>
         <!-- tab mobile -->
         <div class="lg:hidden w-full space-y-[50px]">
-          <div class="container">
+          <div class="container md:!p-0">
             <div class="flex flex-col items-center gap-9">
               <h2
                 class="text-slate-500 text-[46px] md:text-7xl lg:text-[84px] font-medium font-ClashDisplay leading-[54px] md:leading-[84px] lg:leading-[92px] lg:w-[665px] max-w-full text-center">
                 Sistemas RIS y PACs
               </h2>
               <div class="flex flex-col gap-6 w-full">
-                <p class="text-slate-600 text-lg font-normal leading-7 text-center">
+                <p
+                  class="text-slate-600 text-lg font-normal leading-7 text-center w-full lg:max-w-full max-w-[435px] lg:mx-0 mx-auto">
                   Optimiza la gestión de estudios radiológicos con un sistema
                   integrado y eficiente.
                 </p>
 
                 <a href="#"
-                  class="w-full max-w-[403px] min-h-16 max-h-16 p-4 bg-slate-500 border border-slate-500 hover:bg-transparent hover:text-slate-500 active:text-slate-500 focus:text-slate-500 rounded-lg inline-flex flex-col justify-center items-center gap-3.5 text-center text-white text-lg font-medium leading-7 self-center focus:bg-white focus:shadow transition-colors duration-300">
+                  class="w-full max-w-[403px] min-h-16 max-h-16 p-4 bg-slate-500 border border-slate-500 hover:bg-transparent hover:text-slate-500 active:text-slate-500 focus:text-slate-500 rounded-lg inline-flex flex-col justify-center items-center gap-3.5 text-center text-white text-base md:text-lg font-medium leading-7 self-center focus:bg-white focus:shadow transition-colors duration-300">
                   Conoce más
                 </a>
               </div>
@@ -433,7 +434,8 @@
             <!-- Slider wrapper with only left container spacing -->
             <div class="overflow-x-auto pl-4 sm:pl-8 lg:pl-16 2xl:pl-[calc((100vw-1216px)/2)]">
               <div class="w-full h-full z-10 pointer-events-none">
-                <img src="./images/sys-banner-phone.png" alt="systems-banners" class="w-full" />
+                <img src="./images/sys-banner-tab.png" alt="systems-banners" class="w-full hidden md:block" />
+                <img src="./images/sys-banner-phone.png" alt="systems-banners" class="w-full md:hidden" />
               </div>
             </div>
           </div>
@@ -446,31 +448,32 @@
       <div class="container grid grid-cols-1 lg:grid-cols-8 gap-3 md:min-h-[590px] lg:min-h-[674px]">
         <!-- 1st -->
         <div
-          class="relative col-span-1 lg:col-span-5 h-full w-full rounded-xl p-6 text-white bg-light-green overflow-hidden gap-6 flex flex-col lg:flex-row justify-between items-start">
+          class="relative col-span-1 lg:col-span-5 h-full w-full rounded-xl px-3 py-6 md:p-6 text-white bg-light-green overflow-hidden gap-6 flex flex-col lg:flex-row justify-between items-start">
           <div class="gap-6 flex flex-row justify-between items-start">
             <div class="space-y-6 z-1">
               <h4
                 class="text-xl md:text-[22px] lg:text-2xl font-medium leading-[24px] md:leading-[30px] lg:leading-[36px] text-basic-black font-ClashDisplay">
                 ¿Qué ofrece el sistema RIS?
               </h4>
-              <ul class="space-y-1 lg:space-y-2 font-normal text-sm md:text-base text-gray-dark list-disc list-inside">
-                <li class="flex items-center gap-2">
-                  <span class="min-h-[5px] min-w-[5px] inline-block rounded-full bg-gray-dark"></span>
+              <ul
+                class="space-y-1 lg:space-y-2 font-normal text-sm md:text-base text-gray-dark list-disc list-inside lg:m-0 md:-mr-5">
+                <li class="flex items-start gap-2">
+                  <span class="min-h-[5px] min-w-[5px] inline-block rounded-full bg-gray-dark mt-2"></span>
                   Más de 20 módulos configurables para cada área de su
                   gabinete
                 </li>
-                <li class="flex items-center gap-2">
-                  <span class="min-h-[5px] min-w-[5px] inline-block rounded-full bg-gray-dark"></span>
+                <li class="flex items-start gap-2">
+                  <span class="min-h-[5px] min-w-[5px] inline-block rounded-full bg-gray-dark mt-2"></span>
                   Gestión integral de la agenda, para un flujo constante de
                   pacientes
                 </li>
-                <li class="flex items-center gap-2">
-                  <span class="min-h-[5px] min-w-[5px] inline-block rounded-full bg-gray-dark"></span>
+                <li class="flex items-start gap-2">
+                  <span class="min-h-[5px] min-w-[5px] inline-block rounded-full bg-gray-dark mt-2"></span>
                   Más de 50 reportes especializados sobre productividad,
                   ingresos y rendimiento
                 </li>
-                <li class="flex items-center gap-2">
-                  <span class="min-h-[5px] min-w-[5px] inline-block rounded-full bg-gray-dark"></span>
+                <li class="flex items-start gap-2">
+                  <span class="min-h-[5px] min-w-[5px] inline-block rounded-full bg-gray-dark mt-2"></span>
                   Integración total con PACS y Worklist
                 </li>
               </ul>
@@ -502,18 +505,19 @@
         </div>
         <!-- 2nd -->
         <div
-          class="relative col-span-1 lg:col-span-3 h-full w-full rounded-xl p-6 text-white bg-light-green overflow-hidden flex flex-col items-end justify-end">
+          class="relative col-span-1 lg:col-span-3 h-full w-full rounded-xl px-3 py-6 md:p-6 text-white bg-light-green overflow-hidden flex flex-col items-end justify-end">
           <!-- img -->
           <div class="inline-block lg:hidden w-full md:w-[75%] z-1 -mt-6 -mr-6">
             <img src="./images/que-2.png" alt="" class="w-full h-auto" />
           </div>
           <div class="gap-6 flex flex-row justify-between items-start">
-            <div class="space-y-6 z-1">
+            <div class="space-y-6 z-1 ">
               <h4
                 class="text-xl md:text-[22px] lg:text-2xl font-medium leading-[24px] md:leading-[30px] lg:leading-[36px] text-basic-black font-ClashDisplay">
                 ¿Qué ofrece el sistema PACs?
               </h4>
-              <ul class="space-y-1 lg:space-y-2 font-normal text-sm md:text-base text-gray-dark list-disc list-inside">
+              <ul
+                class="space-y-1 lg:space-y-2 font-normal text-sm md:text-base text-gray-dark list-disc list-inside sm:-mr-[35px] -mr-[60px]">
                 <li class="flex items-start gap-2">
                   <span class="min-h-[5px] min-w-[5px] inline-block rounded-full bg-gray-dark mt-2"></span>
                   Almacenamiento escalable, con una capacidad inicial que se
@@ -558,12 +562,12 @@
     <section class="py-12 md:py-15 lg:py-24">
       <div class="container space-y-9 md:space-y-16">
         <!-- text -->
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-6 items-end lg:max-w-full max-w-[570px]">
           <h2
             class="text-basic-black text-[34px] md:text-4xl lg:text-5xl font-medium font-ClashDisplay leading-[46px] md:leading-[48px] lg:leading-[60px]">
             ¿Por qué elegir nuestro sistema RIS y PACs?
           </h2>
-          <p class="text-gray-dark text-base md:text-lg font-normal md:leading-7 w-full lg:max-w-[492px]">
+          <p class="text-gray-dark text-base md:text-lg font-normal md:leading-7 w-full lg:max-w-auto">
             Nuestros sistemas no solo gestionan tu gabinete de manera
             eficiente, sino que también fomentan la innovación y el
             crecimiento, mejorando la experiencia del paciente y optimizando
@@ -580,7 +584,8 @@
                 class="text-basic-black text-2xl md:text-[28px] lg:text-4xl leading-8 md:leading-9 lg:leading-12 font-medium font-ClashDisplay">
                 Mejora la eficiencia operativa
               </h3>
-              <p class="text-basic-black font-normal text-base leading-6 md:text-lg md:leading-7">
+              <p
+                class="text-basic-black font-normal text-base leading-6 md:text-lg md:leading-7 sm:max-w-full max-w-[290px]">
                 Automatiza el flujo de trabajo y distribución de imágenes
                 médicas de manera digital.
               </p>
@@ -592,7 +597,8 @@
                 class="text-basic-black text-2xl md:text-[28px] lg:text-4xl leading-8 md:leading-9 lg:leading-12 font-medium font-ClashDisplay">
                 Reducción de costos operativos
               </h3>
-              <p class="text-basic-black font-normal text-base leading-6 md:text-lg md:leading-7">
+              <p
+                class="text-basic-black font-normal text-base leading-6 md:text-lg md:leading-7 sm:max-w-full max-w-[290px]">
                 Reduce el riesgo de errores humanos, lo que puede resultar en
                 menores costos por correcciones o repeticiones de estudios, y
                 elimina los costos asociados con el almacenamiento físico de
@@ -606,7 +612,8 @@
                 class="text-basic-black text-2xl md:text-[28px] lg:text-4xl leading-8 md:leading-9 lg:leading-12 font-medium font-ClashDisplay">
                 Incremento de la capacidad de trabajo
               </h3>
-              <p class="text-basic-black font-normal text-base leading-6 md:text-lg md:leading-7">
+              <p
+                class="text-basic-black font-normal text-base leading-6 md:text-lg md:leading-7 sm:max-w-full max-w-[290px]">
                 permite gestionar un mayor volumen de pacientes y estudios,
                 optimizando el tiempo y los recursos.
               </p>
@@ -618,7 +625,8 @@
                 class="text-basic-black text-2xl md:text-[28px] lg:text-4xl leading-8 md:leading-9 lg:leading-12 font-medium font-ClashDisplay">
                 Mejor experiencia del paciente
               </h3>
-              <p class="text-basic-black font-normal text-base leading-6 md:text-lg md:leading-7">
+              <p
+                class="text-basic-black font-normal text-base leading-6 md:text-lg md:leading-7 sm:max-w-full max-w-[290px]">
                 Los pacientes experimentan menor tiempo de espera y tienen
                 acceso remoto a las imágenes y resultados, lo que aumenta la
                 satisfacción con tus servicios.
@@ -631,7 +639,7 @@
     <!-- solutions start -->
     <section class="solutions bg-accent-secondary pt-12 md:pt-15">
       <div class="container flex flex-col lg:flex-row items-center justify-between gap-3 lg:gap-16">
-        <div class="w-full lg:max-w-[660px] space-y-6 text-center lg:text-start">
+        <div class="w-full lg:max-w-[660px] md:max-w-[570px] space-y-6 text-center lg:text-start">
           <h4
             class="text-[34px] md:text-4xl lg:text-5xl font-medium leading-11.5 md:leading-12 lg:leading-15 text-basic-white font-ClashDisplay">
             Optimiza la operación de tu gabinete o clínica
@@ -641,7 +649,7 @@
           </p>
           <div>
             <a href="#"
-              class="px-16 py-3 bg-basic-white hover:bg-accent-secondary text-accent-secondary hover:text-basic-white text-lg font-medium rounded-lg inline-flex items-center justify-center transition duration-300 border border-basic-white">
+              class="px-16 py-3 bg-basic-white hover:bg-accent-secondary text-accent-secondary hover:text-basic-white text-lg font-medium rounded-lg inline-flex items-center justify-center transition duration-300 border border-basic-white sm:w-auto w-full">
               Contáctanos</a>
           </div>
         </div>
@@ -920,7 +928,8 @@
   </main>
 
   <footer class="bg-zinc-200 bg-[url('../images/shape-footer.svg')] bg-no-repeat bg-right-top">
-    <div class="container pt-24 pb-12 grid lg:grid-cols-12 sm:grid-cols-3 grid-cols-2 lg:gap-6 gap-y-12 gap-x-3">
+    <div
+      class="container pt-[60px] md:pt-24 pb-12 grid lg:grid-cols-12 sm:grid-cols-3 grid-cols-2 lg:gap-6 gap-y-12 gap-x-3">
       <!-- single item start  -->
       <div class="xl:col-span-4 sm:col-span-3 col-span-2 flex flex-col gap-9">
         <div>
