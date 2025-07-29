@@ -28,7 +28,7 @@
 <body>
   <!-- Preloader -->
   <div id="preloader" class="fixed inset-0 bg-white z-50 flex items-center justify-center">
-    <img src="./images/logo.svg" alt="logo" />
+    <img src="./images/logo.png" loading="eager" decoding="sync" fetchpriority="high" alt="logo" />
     <div
       class="w-16 h-16 border-4 border-gray-300 rounded-full spinner border-t-blue-500 absolute left-0 right-0 m-auto">
     </div>
@@ -38,7 +38,8 @@
   <header class="bg-white py-2.5 sticky top-0 z-30 lg:shadow-none shadow-xl">
     <!-- desktop nav -->
     <div class="container flex flex-row justify-between gap-5 lg:gap-8 items-center">
-      <a href="index.html"><img src="./images/logo.svg" alt="gembet" class="xl:w-auto w-[116px]" /></a>
+      <a href="index.html"><img src="./images/logo.png" loading="eager" decoding="sync" fetchpriority="high" alt="soe"
+          class="xl:w-auto w-[116px]" /></a>
 
       <div class="md:hidden">
         <button
@@ -52,11 +53,11 @@
         <ul class="flex flex-row gap-5 lg:gap-8 items-center">
           <li>
             <a href="./development.html"
-              class="text-slate-800 text-base lg:text-lg font-medium leading-7 transition-all px-1.5 py-1  hover:text-slate-500 active:text-slate-500 focus:text-slate-500 ">Desarrollo</a>
+              class="text-slate-800 text-base lg:text-lg font-medium leading-7 transition-all px-1.5 py-1 hover:text-slate-500 active:text-slate-500 focus:text-slate-500">Desarrollo</a>
           </li>
           <li class="relative dropdown transition-all">
             <button
-              class="dropdown-toggle flex justify-center items-center transition-all cursor-pointer text-slate-800 text-base lg:text-lg font-medium leading-7 px-1.5 py-1 gap-1  hover:text-slate-500"
+              class="dropdown-toggle flex justify-center items-center transition-all cursor-pointer text-slate-800 text-base lg:text-lg font-medium leading-7 px-1.5 py-1 gap-1 hover:text-slate-500"
               data-dropdown>
               Sector salud
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none"
@@ -92,7 +93,7 @@
           </li>
           <li class="relative dropdown transition-all">
             <button
-              class="dropdown-toggle flex justify-center items-center transition-all cursor-pointer text-slate-800 text-base lg:text-lg font-medium leading-7 px-1.5 py-1 gap-1  hover:text-slate-500"
+              class="dropdown-toggle flex justify-center items-center transition-all cursor-pointer text-slate-800 text-base lg:text-lg font-medium leading-7 px-1.5 py-1 gap-1 hover:text-slate-500"
               data-dropdown>
               Sector empresarial
               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none"
@@ -191,7 +192,8 @@
       <div class="bg-white w-full max-w-full h-full py-4 relative">
         <div class="flex flex-row items-center justify-between px-4">
           <a href="">
-            <img src="./images/logo.svg" alt="logo" class="w-[120px]" />
+            <img src="./images/logo.png" loading="eager" decoding="sync" fetchpriority="high" alt="logo"
+              class="w-[120px]" />
           </a>
           <button class="cursor-pointer" data-close-mobile>
             <img src="./images/close.svg" alt="close" />
@@ -202,12 +204,12 @@
             <ul class="flex flex-col gap-5">
               <li class="flex flex-col justify-start text-start">
                 <a href="./development.html"
-                  class="text-slate-800 text-base lg:text-lg font-medium leading-7 transition-all px-1.5 py-1  hover:text-slate-500 active:text-slate-500 focus:text-slate-500 ">Desarrollo</a>
+                  class="text-slate-800 text-base lg:text-lg font-medium leading-7 transition-all px-1.5 py-1 hover:text-slate-500 active:text-slate-500 focus:text-slate-500">Desarrollo</a>
               </li>
 
               <li class="relative dropdown transition-all flex flex-col justify-start">
                 <button
-                  class="dropdown-toggle flex justify-start items-center transition-all cursor-pointer text-slate-800 text-base lg:text-lg font-medium leading-7 px-1.5 py-1 gap-1  hover:text-slate-500 active:text-slate-500 focus:text-slate-500 "
+                  class="dropdown-toggle flex justify-start items-center transition-all cursor-pointer text-slate-800 text-base lg:text-lg font-medium leading-7 px-1.5 py-1 gap-1 hover:text-slate-500 active:text-slate-500 focus:text-slate-500"
                   data-dropdown>
                   Sector salud
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none"
@@ -242,7 +244,7 @@
               </li>
               <li class="relative dropdown transition-all flex flex-col justify-start">
                 <button
-                  class="dropdown-toggle flex justify-start items-center transition-all cursor-pointer text-slate-800 text-base lg:text-lg font-medium leading-7 px-1.5 py-1 gap-1  hover:text-slate-500 active:text-slate-500 focus:text-slate-500 "
+                  class="dropdown-toggle flex justify-start items-center transition-all cursor-pointer text-slate-800 text-base lg:text-lg font-medium leading-7 px-1.5 py-1 gap-1 hover:text-slate-500 active:text-slate-500 focus:text-slate-500"
                   data-dropdown>
                   Sector empresarial
                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none"
@@ -386,7 +388,7 @@
             <div class="flex flex-row justify-between items-center gap-6 xl:gap-16 overflow-x-hidden">
               <div class="flex flex-col items-center lg:items-start gap-9 lg:col-span-4 xl:w-[617px] lg:w-[550px]">
                 <h1
-                  class="text-slate-500 text-[46px] md:text-7xl lg:text-[84px] font-medium font-ClashDisplay leading-[54px] md:leading-[84px] lg:leading-[92px] lg:w-[665px] max-w-full text-center lg:text-left">
+                  class="text-slate-500 text-[46px] md:text-7xl xl:text-[84px] font-medium font-ClashDisplay leading-[54px] md:leading-[84px] xl:leading-[92px] lg:w-[665px] max-w-full text-center lg:text-left">
                   Hardware Corporativo
                 </h1>
                 <div class="flex flex-col gap-6 lg:w-[480px] max-w-full">
@@ -398,7 +400,7 @@
                   </p>
 
                   <a href="#"
-                    class="w-full max-w-[403px] min-h-16 max-h-16 p-4 bg-slate-500 border border-slate-500 hover:bg-transparent  hover:text-slate-500 active:text-slate-500 focus:text-slate-500  rounded-lg inline-flex flex-col justify-center items-center gap-3.5 text-center text-white text-lg font-medium leading-7 self-center lg:self-start focus:bg-white focus:shadow transition-colors duration-300">
+                    class="w-full max-w-[403px] min-h-16 max-h-16 p-4 bg-slate-500 border border-slate-500 hover:bg-transparent hover:text-slate-500 active:text-slate-500 focus:text-slate-500 rounded-lg inline-flex flex-col justify-center items-center gap-3.5 text-center text-white text-lg font-medium leading-7 self-center lg:self-start focus:bg-white focus:shadow transition-colors duration-300">
                     Conoce más
                   </a>
                 </div>
@@ -415,18 +417,19 @@
           <div class="container">
             <div class="flex flex-col items-center gap-9 md:mx-0 -mx-4">
               <h2
-                class="text-slate-500 text-[46px] md:text-7xl lg:text-[84px] font-medium font-ClashDisplay leading-[54px] md:leading-[84px] lg:leading-[92px] lg:w-[665px] max-w-full text-center">
+                class="text-slate-500 text-[46px] md:text-7xl xl:text-[84px] font-medium font-ClashDisplay leading-[54px] md:leading-[84px] xl:leading-[92px] lg:w-[665px] max-w-full text-center">
                 Hardware Corporativo
               </h2>
               <div class="flex flex-col gap-6 w-full">
-                <p class="text-slate-600 text-base md:text-lg font-normal leading-6 md:leading-7 text-center">
+                <p
+                  class="text-slate-600 text-base md:text-lg font-normal leading-6 md:leading-7 text-center lg:max-w-full max-w-[480px] lg:mx-0 mx-auto">
                   Equipamos tu empresa u organización con tecnología
                   confiable, escalable y diseñada para operar sin
                   interrupciones.
                 </p>
 
                 <a href="#"
-                  class="w-full max-w-[403px] min-h-16 max-h-16 p-4 bg-slate-500 border border-slate-500 hover:bg-transparent  hover:text-slate-500 active:text-slate-500 focus:text-slate-500  rounded-lg inline-flex flex-col justify-center items-center gap-3.5 text-center text-white text-lg font-medium leading-7 self-center focus:bg-white focus:shadow transition-colors duration-300">
+                  class="w-full max-w-[403px] min-h-16 max-h-16 p-4 bg-slate-500 border border-slate-500 hover:bg-transparent hover:text-slate-500 active:text-slate-500 focus:text-slate-500 rounded-lg inline-flex flex-col justify-center items-center gap-3.5 text-center text-white text-base md:text-lg font-medium md:leading-7 self-center focus:bg-white focus:shadow transition-colors duration-300">
                   Conoce más
                 </a>
               </div>
@@ -536,7 +539,7 @@
             <!-- single item start  -->
             <div class="w-full gap-6">
               <h2
-                class="text-slate-800 text-[34px] md:text-4xl lg:text-5xl font-medium font-ClashDisplay leading-[46px] lg:leading-[60px] text-center lg:text-start">
+                class="text-slate-800 text-[34px] md:text-4xl xl:text-5xl font-medium font-ClashDisplay leading-[46px] xl:leading-[60px] text-center lg:text-start">
                 Beneficios para tu organización
               </h2>
             </div>
@@ -544,24 +547,26 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-6 w-full h-full">
               <!-- single item end  -->
               <div
-                class="w-full min-h-[200px] md:min-h-[171px] lg:min-h-auto p-6 bg-accent-tertiary rounded-xl flex flex-col justify-between items-start h-full gap-6">
+                class="w-full min-h-[200px] lg:min-h-[220px] p-6 bg-accent-tertiary rounded-xl flex flex-col justify-between items-start lg:h-full gap-6">
                 <h4
-                  class="text-basic-black font-ClashDisplay font-medium text-xl leading-6 md:text-[22px] md:leading-[30px] lg:text-2xl lg:leading-9">
+                  class="text-basic-black font-ClashDisplay font-medium text-xl leading-6 md:text-[22px] md:leading-[30px] xl:text-2xl xl:leading-9">
                   Potencia que no se detiene
                 </h4>
-                <p class="self-stretch justify-start text-slate-800 text-lg font-normal leading-7">
-                  Optimizar tiempos y eliminar errores manuales
+                <p
+                  class="self-stretch justify-start text-slate-800 text-base md:text-lg font-normal leading-6 md:leading-7 max-w-[280px]">
+                  Rendimiento optimizado para operaciones continuas
                 </p>
               </div>
               <!-- single item start  -->
               <!-- single item end  -->
               <div
-                class="w-full min-h-[200px] md:min-h-[171px] lg:min-h-auto p-6 bg-accent-tertiary rounded-xl flex flex-col justify-between items-start h-full gap-6">
+                class="w-full min-h-[200px] lg:min-h-[220px] p-6 bg-accent-tertiary rounded-xl flex flex-col justify-between items-start lg:h-full gap-6">
                 <h4
-                  class="text-basic-black font-ClashDisplay font-medium text-xl leading-6 md:text-[22px] md:leading-[30px] lg:text-2xl lg:leading-9">
+                  class="text-basic-black font-ClashDisplay font-medium text-xl leading-6 md:text-[22px] md:leading-[30px] xl:text-2xl xl:leading-9">
                   Tecnología a tu medida
                 </h4>
-                <p class="self-stretch justify-start text-slate-800 text-lg font-normal leading-7">
+                <p
+                  class="self-stretch justify-start text-slate-800 text-base md:text-lg font-normal leading-6 md:leading-7 max-w-[280px]">
                   Hardware seleccionado para cada necesidad (no genérico)
                 </p>
               </div>
@@ -573,18 +578,19 @@
           <div class="col-span-1 md:col-span-8 lg:col-span-4 relative rounded-xl w-full h-full">
             <img src="./images/hardware-middle.png" alt="hardware"
               class="w-full max-h-[245px] md:max-h-[400px] lg:min-h-[760px] object-cover rounded-xl hidden md:block" />
-            <img src="./images/hardware-middle-phone.png" alt="hardware" class="w-full  rounded-xl block md:hidden" />
+            <img src="./images/hardware-middle-phone.png" alt="hardware" class="w-full rounded-xl block md:hidden" />
           </div>
           <!-- 3 -->
-          <div class="col-span-1 md:col-span-8 lg:col-span-3 flex flex-col md:flex-row lg:flex-col gap-4 md:gap-6">
+          <div class="col-span-1 md:col-span-8 lg:col-span-3 flex flex-col md:flex-row lg:flex-col gap-6">
             <!-- single item start  -->
             <div
               class="w-full md:w-1/3 min-h-[200px] md:min-h-[171px] lg:min-h-auto lg:w-full p-6 bg-accent-tertiary rounded-xl flex flex-col justify-between items-start sm:h-full gap-6">
               <h4
-                class="text-basic-black font-ClashDisplay font-medium text-xl leading-6 md:text-[22px] md:leading-[30px] lg:text-2xl lg:leading-9">
+                class="text-basic-black font-ClashDisplay font-medium text-xl leading-6 md:text-[22px] md:leading-[30px] xl:text-2xl xl:leading-9">
                 Listo para integrarse desde el primer día
               </h4>
-              <p class="self-stretch justify-start text-slate-800 text-lg font-normal leading-7">
+              <p
+                class="self-stretch justify-start text-slate-800 text-base md:text-lg font-normal leading-6 md:leading-7 max-w-[280px]">
                 Compatibilidad total con sistemas clínicos, administrativos y
                 productivos
               </p>
@@ -594,10 +600,11 @@
             <div
               class="w-full md:w-1/3 min-h-[200px] md:min-h-[171px] lg:min-h-auto lg:w-full p-6 bg-accent-tertiary rounded-xl flex flex-col justify-between items-start sm:h-full gap-6">
               <h4
-                class="text-basic-black font-ClashDisplay font-medium text-xl leading-6 md:text-[22px] md:leading-[30px] lg:text-2xl lg:leading-9">
+                class="text-basic-black font-ClashDisplay font-medium text-xl leading-6 md:text-[22px] md:leading-[30px] xl:text-2xl xl:leading-9">
                 Crecimiento sin límites ni interrupciones
               </h4>
-              <p class="self-stretch justify-start text-slate-800 text-lg font-normal leading-7">
+              <p
+                class="self-stretch justify-start text-slate-800 text-base md:text-lg font-normal leading-6 md:leading-7 max-w-[280px]">
                 Escalabilidad para crecer sin reemplazar toda la
                 infraestructura
               </p>
@@ -607,10 +614,11 @@
             <div
               class="w-full md:w-1/3 min-h-[200px] md:min-h-[171px] lg:min-h-auto lg:w-full p-6 bg-accent-tertiary rounded-xl flex flex-col justify-between items-start sm:h-full gap-6">
               <h4
-                class="text-basic-black font-ClashDisplay font-medium text-xl leading-6 md:text-[22px] md:leading-[30px] lg:text-2xl lg:leading-9">
+                class="text-basic-black font-ClashDisplay font-medium text-xl leading-6 md:text-[22px] md:leading-[30px] xl:text-2xl xl:leading-9">
                 Nos encargamos de que todo funcione
               </h4>
-              <p class="self-stretch justify-start text-slate-800 text-lg font-normal leading-7">
+              <p
+                class="self-stretch justify-start text-slate-800 text-base md:text-lg font-normal leading-6 md:leading-7 max-w-[280px]">
                 Integración e instalación técnica por nuestro equipo
               </p>
             </div>
@@ -626,7 +634,7 @@
       <div class="container flex flex-col md:flex-row items-start justify-between mb-8 gap-6">
         <div class="flex flex-col lg:flex-row justify-between items-start lg:items-start gap-6 w-full">
           <h2
-            class="text-basic-black text-[34px] md:text-4xl lg:text-5xl font-medium font-ClashDisplay leading-[46px] md:leading-[48px] lg:leading-[60px]">
+            class="text-basic-black text-[34px] md:text-4xl xl:text-5xl font-medium font-ClashDisplay leading-[46px] md:leading-[48px] xl:leading-[60px]">
             Segmentos a los que atendemos
           </h2>
 
@@ -684,7 +692,7 @@
               <div
                 class="swiper-slide h-full flex rounded-xl max-w-[calc(100%-80px)] md:max-w-[300px] lg:max-w-[465px] w-full shrink-0">
                 <div
-                  class="relative h-full w-full rounded-xl p-6 text-white bg-gradient-to-t from-[#13547A] to-[#80D0C7] overflow-hidden group/slider">
+                  class="relative h-full w-full rounded-xl p-6 text-white bg-gradient-to-t from-[#13547A] to-[#80D0C7] overflow-hidden group/slider groupItem">
                   <div class="opacity-100 group-hover/slider:opacity-0 transition-opacity duration-400">
                     <div class="absolute inset-0 pointer-events-none z-0 rounded-xl overflow-hidden">
                       <img src="./images/los-1.png" alt="" class="w-full h-full object-cover" />
@@ -697,7 +705,7 @@
                   </div>
                   <div class="opacity-0 group-hover/slider:opacity-100 transition-opacity duration-400">
                     <h4
-                      class="text-2xl md:text-[28px] lg:text-4xl font-medium leading-8 md:leading-9 lg:leading-4xl text-basic-white font-ClashDisplay">
+                      class="text-2xl md:text-[28px] xl:text-4xl font-medium leading-8 md:leading-9 xl:leading-4xl text-basic-white font-ClashDisplay">
                       Clínicas y hospitales con PACS/RIS, TPV
                     </h4>
 
@@ -730,8 +738,8 @@
               <div
                 class="swiper-slide h-full flex rounded-xl max-w-[calc(100%-80px)] md:max-w-[300px] lg:max-w-[465px] w-full shrink-0">
                 <div
-                  class="relative h-full w-full rounded-xl p-6 text-white bg-gradient-to-t from-[#13547A] to-[#80D0C7] overflow-hidden group/slider">
-                  <div class="opacity-100 group-hover/slider:opacity-0 transition-opacity duration-400">
+                  class="relative h-full w-full rounded-xl p-6 text-white bg-gradient-to-t from-[#13547A] to-[#80D0C7] overflow-hidden group/slider groupItem">
+                  <div class="opacity-100 group-hover/slider:opacity-0 transition-opacity duration-400 item1">
                     <div class="absolute inset-0 pointer-events-none z-0 rounded-xl overflow-hidden">
                       <img src="./images/los-2.png" alt="" class="w-full h-full object-cover" />
                     </div>
@@ -741,9 +749,9 @@
                       Empresas con entornos híbridos o virtualizados
                     </span>
                   </div>
-                  <div class="opacity-0 group-hover/slider:opacity-100 transition-opacity duration-400">
+                  <div class="opacity-0 group-hover/slider:opacity-100 transition-opacity duration-400 item2">
                     <h4
-                      class="text-2xl md:text-[28px] lg:text-4xl font-medium leading-8 md:leading-9 lg:leading-4xl text-basic-white font-ClashDisplay">
+                      class="text-2xl md:text-[28px] xl:text-4xl font-medium leading-8 md:leading-9 xl:leading-4xl text-basic-white font-ClashDisplay">
                       Empresas con entornos híbridos o virtualizados
                     </h4>
 
@@ -776,8 +784,8 @@
               <div
                 class="swiper-slide h-full flex rounded-xl max-w-[calc(100%-80px)] md:max-w-[300px] lg:max-w-[465px] w-full shrink-0">
                 <div
-                  class="relative h-full w-full rounded-xl p-6 text-white bg-gradient-to-t from-[#13547A] to-[#80D0C7] overflow-hidden group/slider">
-                  <div class="opacity-100 group-hover/slider:opacity-0 transition-opacity duration-400">
+                  class="relative h-full w-full rounded-xl p-6 text-white bg-gradient-to-t from-[#13547A] to-[#80D0C7] overflow-hidden group/slider groupItem">
+                  <div class="opacity-100 group-hover/slider:opacity-0 transition-opacity duration-400 item1">
                     <div class="absolute inset-0 pointer-events-none z-0 rounded-xl overflow-hidden">
                       <img src="./images/los-3.png" alt="" class="w-full h-full object-cover" />
                     </div>
@@ -788,9 +796,9 @@
                       múltiples
                     </span>
                   </div>
-                  <div class="opacity-0 group-hover/slider:opacity-100 transition-opacity duration-400">
+                  <div class="opacity-0 group-hover/slider:opacity-100 transition-opacity duration-400 item2">
                     <h4
-                      class="text-2xl md:text-[28px] lg:text-4xl font-medium leading-8 md:leading-9 lg:leading-4xl text-basic-white font-ClashDisplay">
+                      class="text-2xl md:text-[28px] xl:text-4xl font-medium leading-8 md:leading-9 xl:leading-4xl text-basic-white font-ClashDisplay">
                       Escuelas y centros de capacitación con terminales
                       múltiples
                     </h4>
@@ -824,8 +832,8 @@
               <div
                 class="swiper-slide h-full flex rounded-xl max-w-[calc(100%-80px)] md:max-w-[300px] lg:max-w-[465px] w-full shrink-0">
                 <div
-                  class="relative h-full w-full rounded-xl p-6 text-white bg-gradient-to-t from-[#13547A] to-[#80D0C7] overflow-hidden group/slider">
-                  <div class="opacity-100 group-hover/slider:opacity-0 transition-opacity duration-400">
+                  class="relative h-full w-full rounded-xl p-6 text-white bg-gradient-to-t from-[#13547A] to-[#80D0C7] overflow-hidden group/slider groupItem">
+                  <div class="opacity-100 group-hover/slider:opacity-0 transition-opacity duration-400 item1">
                     <div class="absolute inset-0 pointer-events-none z-0 rounded-xl overflow-hidden">
                       <img src="./images/los-4.png" alt="" class="w-full h-full object-cover" />
                     </div>
@@ -836,9 +844,9 @@
                       estables
                     </span>
                   </div>
-                  <div class="opacity-0 group-hover/slider:opacity-100 transition-opacity duration-400">
+                  <div class="opacity-0 group-hover/slider:opacity-100 transition-opacity duration-400 item2">
                     <h4
-                      class="text-2xl md:text-[28px] lg:text-4xl font-medium leading-8 md:leading-9 lg:leading-4xl text-basic-white font-ClashDisplay">
+                      class="text-2xl md:text-[28px] xl:text-4xl font-medium leading-8 md:leading-9 xl:leading-4xl text-basic-white font-ClashDisplay">
                       Oficinas que requieren puntos de trabajo seguros y
                       estables
                     </h4>
@@ -879,7 +887,7 @@
       <div class="container flex flex-col md:flex-row items-start justify-between mb-8 gap-6">
         <div class="flex flex-col lg:flex-row justify-between items-start lg:items-start gap-6 w-full">
           <h2
-            class="text-basic-black text-[34px] md:text-4xl lg:text-5xl font-medium font-ClashDisplay leading-[46px] md:leading-[48px] lg:leading-[60px]">
+            class="text-basic-black text-[34px] md:text-4xl xl:text-5xl font-medium font-ClashDisplay leading-[46px] md:leading-[48px] xl:leading-[60px]">
             Preguntas frecuentes
           </h2>
 
@@ -945,7 +953,7 @@
                   <!-- main -->
                   <div class="inline-block group-hover/slider:hidden transition-opacity duration-400 item1">
                     <h4
-                      class="text-2xl md:text-3xl lg:text-4xl font-medium leading-8 md:leading-9 lg:leading-12 max-w-[372px] text-basic-black font-ClashDisplay">
+                      class="text-2xl md:text-[28px] xl:text-4xl leading-8 md:leading-9 font-medium  max-w-[372px] text-basic-black font-ClashDisplay">
                       ¿Cómo saber qué solución es la adecuada para mi
                       organización?
                     </h4>
@@ -959,7 +967,7 @@
                       <img src="./images/arrow-down-left.svg" alt="arrow-up-left" class="w-6 h-8 md:w-12 md:h-12" />
                     </div>
                     <h4
-                      class="text-2xl md:text-3xl lg:text-4xl font-medium leading-8 md:leading-9 lg:leading-12 max-w-[372px] text-basic-white font-ClashDisplay">
+                      class="text-2xl md:text-[28px] xl:text-4xl leading-8 md:leading-9 font-medium  max-w-[372px] text-white font-ClashDisplay">
                       ¿Cómo saber qué solución es la adecuada para mi
                       organización?
                     </h4>
@@ -984,7 +992,7 @@
                   <!-- main -->
                   <div class="inline-block group-hover/slider:hidden transition-opacity duration-400 item1">
                     <h4
-                      class="text-2xl md:text-3xl lg:text-4xl font-medium leading-8 md:leading-9 lg:leading-12 max-w-[372px] text-basic-black font-ClashDisplay">
+                      class="text-2xl md:text-[28px] xl:text-4xl leading-8 md:leading-9 font-medium  max-w-[372px] text-basic-black font-ClashDisplay">
                       ¿Cuál es el proceso para iniciar un proyecto con
                       ustedes?
                     </h4>
@@ -998,7 +1006,7 @@
                       <img src="./images/arrow-down-left.svg" alt="arrow-up-left" class="w-6 h-8 md:w-12 md:h-12" />
                     </div>
                     <h4
-                      class="text-2xl md:text-3xl lg:text-4xl font-medium leading-8 md:leading-9 lg:leading-12 max-w-[372px] text-basic-white font-ClashDisplay">
+                      class="text-2xl md:text-[28px] xl:text-4xl leading-8 md:leading-9 font-medium  max-w-[372px] text-white font-ClashDisplay">
                       ¿Cuál es el proceso para iniciar un proyecto con
                       ustedes?
                     </h4>
@@ -1023,7 +1031,7 @@
                   <!-- main -->
                   <div class="inline-block group-hover/slider:hidden transition-opacity duration-400 item1">
                     <h4
-                      class="text-2xl md:text-3xl lg:text-4xl font-medium leading-8 md:leading-9 lg:leading-12 max-w-[372px] text-basic-black font-ClashDisplay">
+                      class="text-2xl md:text-[28px] xl:text-4xl leading-8 md:leading-9 font-medium  max-w-[372px] text-basic-black font-ClashDisplay">
                       ¿Qué tipo de soporte ofrecen durante y después del
                       proyecto?
                     </h4>
@@ -1037,7 +1045,7 @@
                       <img src="./images/arrow-down-left.svg" alt="arrow-up-left" class="w-6 h-8 md:w-12 md:h-12" />
                     </div>
                     <h4
-                      class="text-2xl md:text-3xl lg:text-4xl font-medium leading-8 md:leading-9 lg:leading-12 max-w-[372px] text-basic-white font-ClashDisplay">
+                      class="text-2xl md:text-[28px] xl:text-4xl leading-8 md:leading-9 font-medium  max-w-[372px] text-white font-ClashDisplay">
                       ¿Qué tipo de soporte ofrecen durante y después del
                       proyecto?
                     </h4>
@@ -1062,7 +1070,7 @@
                   <!-- main -->
                   <div class="inline-block group-hover/slider:hidden transition-opacity duration-400 item1">
                     <h4
-                      class="text-2xl md:text-3xl lg:text-4xl font-medium leading-8 md:leading-9 lg:leading-12 max-w-[372px] text-basic-black font-ClashDisplay">
+                      class="text-2xl md:text-[28px] xl:text-4xl leading-8 md:leading-9 font-medium  max-w-[372px] text-basic-black font-ClashDisplay">
                       ¿Hay costos adicionales por soporte o mantenimiento?
                     </h4>
                     <div class="absolute top-6 right-6">
@@ -1075,7 +1083,7 @@
                       <img src="./images/arrow-down-left.svg" alt="arrow-up-left" class="w-6 h-8 md:w-12 md:h-12" />
                     </div>
                     <h4
-                      class="text-2xl md:text-3xl lg:text-4xl font-medium leading-8 md:leading-9 lg:leading-12 max-w-[372px] text-basic-white font-ClashDisplay">
+                      class="text-2xl md:text-[28px] xl:text-4xl leading-8 md:leading-9 font-medium  max-w-[372px] text-white font-ClashDisplay">
                       ¿Hay costos adicionales por soporte o mantenimiento?
                     </h4>
                     <p class="font-normal text-sm md:text-base text-basic-white leading-5 md:leading-6 pt-6">
@@ -1099,7 +1107,7 @@
                   <!-- main -->
                   <div class="inline-block group-hover/slider:hidden transition-opacity duration-400 item1">
                     <h4
-                      class="text-2xl md:text-3xl lg:text-4xl font-medium leading-8 md:leading-9 lg:leading-12 max-w-[372px] text-basic-black font-ClashDisplay">
+                      class="text-2xl md:text-[28px] xl:text-4xl leading-8 md:leading-9 font-medium  max-w-[372px] text-basic-black font-ClashDisplay">
                       ¿Cómo saber qué solución es la adecuada para mi
                       organización?
                     </h4>
@@ -1113,7 +1121,7 @@
                       <img src="./images/arrow-down-left.svg" alt="arrow-up-left" class="w-6 h-8 md:w-12 md:h-12" />
                     </div>
                     <h4
-                      class="text-2xl md:text-3xl lg:text-4xl font-medium leading-8 md:leading-9 lg:leading-12 max-w-[372px] text-basic-white font-ClashDisplay">
+                      class="text-2xl md:text-[28px] xl:text-4xl leading-8 md:leading-9 font-medium  max-w-[372px] text-white font-ClashDisplay">
                       ¿Cómo saber qué solución es la adecuada para mi
                       organización?
                     </h4>
@@ -1146,13 +1154,13 @@
       <div class="xl:col-span-4 sm:col-span-3 col-span-2 flex flex-col gap-9">
         <div>
           <a href="">
-            <img src="./images/logo.svg" alt="soe-logo" />
+            <img src="./images/logo.png" loading="eager" decoding="sync" fetchpriority="high" alt="soe-logo" />
           </a>
         </div>
         <ul class="flex flex-col gap-4">
           <li>
             <a href="mailto:info@soe.com.mx"
-              class="flex flex-row items-center gap-1.5 text-slate-800 text-base font-normal leading-normal  hover:text-slate-500 active:text-slate-500 focus:text-slate-500  transition-colors duration-300">
+              class="flex flex-row items-center gap-1.5 text-slate-800 text-base font-normal leading-normal hover:text-slate-500 active:text-slate-500 focus:text-slate-500 transition-colors duration-300">
               <span>
                 <img src="images/mail.svg" alt="mail" />
               </span>
@@ -1162,7 +1170,7 @@
 
           <li>
             <a href=""
-              class="flex flex-row items-center gap-1.5 text-slate-800 text-base font-normal leading-normal  hover:text-slate-500 active:text-slate-500 focus:text-slate-500  transition-colors duration-300">
+              class="flex flex-row items-center gap-1.5 text-slate-800 text-base font-normal leading-normal hover:text-slate-500 active:text-slate-500 focus:text-slate-500 transition-colors duration-300">
               <span>
                 <img src="images/location.svg" alt="location" />
               </span>
@@ -1171,7 +1179,7 @@
           </li>
           <li>
             <a href="tel:+52 664 980 03 03"
-              class="flex flex-row items-center gap-1.5 text-slate-800 text-base font-normal leading-normal  hover:text-slate-500 active:text-slate-500 focus:text-slate-500  transition-colors duration-300">
+              class="flex flex-row items-center gap-1.5 text-slate-800 text-base font-normal leading-normal hover:text-slate-500 active:text-slate-500 focus:text-slate-500 transition-colors duration-300">
               <span>
                 <img src="images/phone.svg" alt="phone" />
               </span>
@@ -1191,31 +1199,31 @@
         <ul class="mt-4 space-y-2 pl-8">
           <li>
             <a href="#"
-              class="text-slate-600 text-base  hover:text-slate-500 active:text-slate-500 focus:text-slate-500  transition-colors duration-300">Desarrollo</a>
+              class="text-slate-600 text-base hover:text-slate-500 active:text-slate-500 focus:text-slate-500 transition-colors duration-300">Desarrollo</a>
           </li>
           <li>
             <a href="#"
-              class="text-slate-600 text-base  hover:text-slate-500 active:text-slate-500 focus:text-slate-500  transition-colors duration-300">Sistemas
+              class="text-slate-600 text-base hover:text-slate-500 active:text-slate-500 focus:text-slate-500 transition-colors duration-300">Sistemas
               RIS y PACs</a>
           </li>
           <li>
             <a href="#"
-              class="text-slate-600 text-base  hover:text-slate-500 active:text-slate-500 focus:text-slate-500  transition-colors duration-300">Growth
+              class="text-slate-600 text-base hover:text-slate-500 active:text-slate-500 focus:text-slate-500 transition-colors duration-300">Growth
               partner</a>
           </li>
           <li>
             <a href="#"
-              class="text-slate-600 text-base  hover:text-slate-500 active:text-slate-500 focus:text-slate-500  transition-colors duration-300">Call
+              class="text-slate-600 text-base hover:text-slate-500 active:text-slate-500 focus:text-slate-500 transition-colors duration-300">Call
               center</a>
           </li>
           <li>
             <a href="#"
-              class="text-slate-600 text-base  hover:text-slate-500 active:text-slate-500 focus:text-slate-500  transition-colors duration-300">Hardware
+              class="text-slate-600 text-base hover:text-slate-500 active:text-slate-500 focus:text-slate-500 transition-colors duration-300">Hardware
               corporativo</a>
           </li>
           <li>
             <a href="#"
-              class="text-slate-600 text-base  hover:text-slate-500 active:text-slate-500 focus:text-slate-500  transition-colors duration-300">Provisión
+              class="text-slate-600 text-base hover:text-slate-500 active:text-slate-500 focus:text-slate-500 transition-colors duration-300">Provisión
               de tecnología</a>
           </li>
         </ul>
@@ -1230,28 +1238,26 @@
         <ul class="mt-4 space-y-2 pl-8">
           <li>
             <a href="#"
-              class="text-slate-600 text-base  hover:text-slate-500 active:text-slate-500 focus:text-slate-500  transition-colors duration-300">Casos
-              de
-              éxito</a>
+              class="text-slate-600 text-base hover:text-slate-500 active:text-slate-500 focus:text-slate-500 transition-colors duration-300">Casos
+              de éxito</a>
           </li>
           <li>
             <a href="#"
-              class="text-slate-600 text-base  hover:text-slate-500 active:text-slate-500 focus:text-slate-500  transition-colors duration-300">FAQ</a>
+              class="text-slate-600 text-base hover:text-slate-500 active:text-slate-500 focus:text-slate-500 transition-colors duration-300">FAQ</a>
           </li>
           <li>
             <a href="#"
-              class="text-slate-600 text-base  hover:text-slate-500 active:text-slate-500 focus:text-slate-500  transition-colors duration-300">Únete
-              a
-              SOE</a>
+              class="text-slate-600 text-base hover:text-slate-500 active:text-slate-500 focus:text-slate-500 transition-colors duration-300">Únete
+              a SOE</a>
           </li>
           <li>
             <a href="#"
-              class="text-slate-600 text-base  hover:text-slate-500 active:text-slate-500 focus:text-slate-500  transition-colors duration-300">Soporte
+              class="text-slate-600 text-base hover:text-slate-500 active:text-slate-500 focus:text-slate-500 transition-colors duration-300">Soporte
               técnico</a>
           </li>
           <li>
             <a href="#"
-              class="text-slate-600 text-base  hover:text-slate-500 active:text-slate-500 focus:text-slate-500  transition-colors duration-300">Contacto</a>
+              class="text-slate-600 text-base hover:text-slate-500 active:text-slate-500 focus:text-slate-500 transition-colors duration-300">Contacto</a>
           </li>
         </ul>
       </div>
@@ -1265,21 +1271,18 @@
         <ul class="mt-4 space-y-2 pl-8">
           <li>
             <a href="#"
-              class="text-slate-600 text-base  hover:text-slate-500 active:text-slate-500 focus:text-slate-500  transition-colors duration-300">Aviso
-              de
-              privacidad</a>
+              class="text-slate-600 text-base hover:text-slate-500 active:text-slate-500 focus:text-slate-500 transition-colors duration-300">Aviso
+              de privacidad</a>
           </li>
           <li>
             <a href="#"
-              class="text-slate-600 text-base  hover:text-slate-500 active:text-slate-500 focus:text-slate-500  transition-colors duration-300">Política
-              de
-              cookies</a>
+              class="text-slate-600 text-base hover:text-slate-500 active:text-slate-500 focus:text-slate-500 transition-colors duration-300">Política
+              de cookies</a>
           </li>
           <li>
             <a href="#"
-              class="text-slate-600 text-base  hover:text-slate-500 active:text-slate-500 focus:text-slate-500  transition-colors duration-300">Términos
-              y
-              condiciones</a>
+              class="text-slate-600 text-base hover:text-slate-500 active:text-slate-500 focus:text-slate-500 transition-colors duration-300">Términos
+              y condiciones</a>
           </li>
         </ul>
       </div>

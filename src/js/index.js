@@ -146,9 +146,12 @@ window.addEventListener("DOMContentLoaded", function () {
       prevEl: ".frecuentes-prev",
     },
     breakpoints: {
-      640: { slidesPerView: "auto"},
+      640: { slidesPerView: "auto" },
       768: { slidesPerView: "auto" },
-      1024: { slidesPerView: 3.6 },
+      1024: { slidesPerView: 2.6 },
+      1280: {
+        slidesPerView: 3.6,
+      },
     },
   });
 });

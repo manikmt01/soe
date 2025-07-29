@@ -218,6 +218,16 @@ select:invalid {
 .groupItemNew:hover .item2 {
   display: inline-block;
 }
+.groupItemTwo:hover {
+  @apply bg-accent-secondary;
+}
+
+.groupItemTwo:hover .item1 {
+  display: none;
+}
+.groupItemTwo:hover .item2 {
+  display: inline-block;
+}
 .bgPhone {
   background: linear-gradient(180deg, #3c8b84 -17.43%, #fefefd 101.05%);
 }
