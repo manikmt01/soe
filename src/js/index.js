@@ -106,6 +106,30 @@ const servicesSwiper = new Swiper(".servicesSwiper", {
     },
   },
 });
+// swiper slider two
+const servicesSwiperTwo = new Swiper(".servicesSwiperTwo", {
+  slidesPerView: "auto",
+  spaceBetween: 12,
+  loop: true,
+  navigation: {
+    nextEl: ".swiper-next",
+    prevEl: ".swiper-prev",
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: "auto",
+    },
+    768: {
+      slidesPerView: 2.2,
+    },
+    1024: {
+      slidesPerView: 2.3,
+    },
+    1280: {
+      slidesPerView: 3.2,
+    },
+  },
+});
 
 //dev
 const devsswiper = new Swiper(".devSwiper", {
@@ -181,3 +205,12 @@ setResponsiveGradient();
 
 // Run on window resize
 window.addEventListener("resize", setResponsiveGradient);
+
+// any link clickable
+document.querySelectorAll(".linkify").forEach((el) => {
+  el.style.cursor = "pointer";
+  el.addEventListener("click", () => {
+    const href = el.getAttribute("data-href");
+    if (href) window.location.href = href;
+  });
+});
