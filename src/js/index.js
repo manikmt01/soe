@@ -90,6 +90,15 @@ const servicesSwiper = new Swiper(".servicesSwiper", {
   slidesPerView: "auto",
   spaceBetween: 12,
   loop: true,
+  grabCursor: true,
+  mousewheel: {
+    forceToAxis: true,
+  },
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+    pauseOnMouseEnter: true,
+  },
   navigation: {
     nextEl: ".swiper-next",
     prevEl: ".swiper-prev",
@@ -106,11 +115,48 @@ const servicesSwiper = new Swiper(".servicesSwiper", {
     },
   },
 });
+
+//dev
+const devsswiper = new Swiper(".devSwiper", {
+  slidesPerView: "auto",
+  spaceBetween: 12,
+  loop: true,
+  grabCursor: true,
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+    pauseOnMouseEnter: true,
+  },
+  navigation: {
+    nextEl: ".swiperdev-next",
+    prevEl: ".swiperdev-prev",
+  },
+  breakpoints: {
+    640: {
+      slidesPerView: "auto",
+    },
+    768: {
+      slidesPerView: "auto",
+    },
+    1024: {
+      slidesPerView: "auto",
+    },
+    1280: {
+      slidesPerView: 2.2,
+    },
+  },
+});
 // swiper slider two
 const servicesSwiperTwo = new Swiper(".servicesSwiperTwo", {
   slidesPerView: "auto",
   spaceBetween: 12,
   loop: true,
+  grabCursor: true,
+  autoplay: {
+    delay: 3000,
+    disableOnInteraction: false,
+    pauseOnMouseEnter: true,
+  },
   navigation: {
     nextEl: ".swiper-next",
     prevEl: ".swiper-prev",
@@ -131,39 +177,16 @@ const servicesSwiperTwo = new Swiper(".servicesSwiperTwo", {
   },
 });
 
-//dev
-const devsswiper = new Swiper(".devSwiper", {
-  slidesPerView: "auto",
-  spaceBetween: 12,
-  loop: true,
-  navigation: {
-    nextEl: ".swiperdev-next",
-    prevEl: ".swiperdev-prev",
-  },
-  breakpoints: {
-    640: {
-      slidesPerView: "auto",
-    },
-    768: {
-      slidesPerView: "auto",
-    },
-    1024: {
-      slidesPerView: "auto",
-    },
-    1280: {
-      slidesPerView: 2.2,
-    },
-  },
-});
-
 window.addEventListener("DOMContentLoaded", function () {
   const frecuentesswiper = new Swiper(".frecuentesSwiper", {
     slidesPerView: "auto",
     spaceBetween: 12,
     loop: true,
+    grabCursor: true,
     autoplay: {
-      delay: 5000,
+      delay: 3000,
       disableOnInteraction: false,
+      pauseOnMouseEnter: true,
     },
     navigation: {
       nextEl: ".frecuentes-next",
