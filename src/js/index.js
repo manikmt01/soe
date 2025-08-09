@@ -111,6 +111,9 @@ const servicesSwiper = new Swiper('.servicesSwiper', {
       slidesPerView: 2.2,
     },
     1024: {
+      slidesPerView: 2.8,
+    },
+    1280: {
       slidesPerView: 3,
     },
   },
@@ -194,10 +197,10 @@ window.addEventListener('DOMContentLoaded', function () {
     },
     breakpoints: {
       640: { slidesPerView: 'auto' },
-      768: { slidesPerView: 'auto' },
+      768: { slidesPerView: 1.8 },
       1024: { slidesPerView: 2.6 },
       1280: {
-        slidesPerView: 3.6,
+        slidesPerView: 3,
       },
     },
   });
