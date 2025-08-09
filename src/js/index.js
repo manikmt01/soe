@@ -145,7 +145,7 @@ const devsswiper = new Swiper('.devSwiper', {
       slidesPerView: 'auto',
     },
     1280: {
-      slidesPerView: 2.2,
+      slidesPerView: 2,
     },
   },
 });
